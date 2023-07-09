@@ -15,7 +15,7 @@ class Game(models.Model):
     availability = models.BooleanField(default=True, verbose_name='Доступность')
     number_of_views = models.PositiveIntegerField(default=0, verbose_name='Кол-во просмотров')
     number_of_sales = models.PositiveIntegerField(default=0, verbose_name='Кол-во покупок')
-    category = models.ForeignKey('Category', on_delete=models.SET_NULL, related_name='games',
+    category = models.ForeignKey('Category', null=True, on_delete=models.SET_NULL, related_name='games',
                                  verbose_name='Категория игры')
 
     class Meta:
