@@ -15,8 +15,11 @@ class Game(models.Model):
     availability = models.BooleanField(default=True, verbose_name='Доступность')
     number_of_views = models.PositiveIntegerField(default=0, verbose_name='Кол-во просмотров')
     number_of_sales = models.PositiveIntegerField(default=0, verbose_name='Кол-во покупок')
-    category = models.ForeignKey('Category', null=True, on_delete=models.SET_NULL, related_name='games',
+    category = models.ForeignKey('Category', blank=True, null=True, on_delete=models.SET_NULL, related_name='games',
                                  verbose_name='Категория игры')
+
+    # bounded_games = //TODO возможно, стоит задать связанные игры самому, возможно реализовать через Redis
+    # image_gallery = //TODO точно стоит задать галерею изображений к конкретному товару, но делать этого не буду, т.к. буду парсить сайт конкурентов, чтобы заполнить БД и брать будут только адрес изображений с превью
 
     class Meta:
         verbose_name = 'Игра'
@@ -40,11 +43,18 @@ class Game(models.Model):
 class Category(models.Model):
     title = models.CharField(max_length=255, verbose_name='Название категорий')
     slug = models.SlugField(unique=True, verbose_name='Символьный код')
-    image = models.ImageField(upload_to='products/%Y/cat/', blank=True, verbose_name='Изображение')
+    image = models.ImageField(upload_to='categories/%Y/cat/', blank=True, verbose_name='Изображение')
     description = models.TextField(verbose_name='Описание')
 
+    class Meta:
+        verbose_name = 'Категория игр'
+        verbose_name_plural = 'Категории игр'
+
+    def __str__(self):
+        return self.title
+
     def count_games(self):
-        return Count(self.games.all())
+        return self.games.count()
 
     def get_absolute_url(self):
         pass
