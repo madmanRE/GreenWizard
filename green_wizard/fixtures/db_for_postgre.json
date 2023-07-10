@@ -1,0 +1,3664 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-07-10T09:23:21.393Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Category object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-07-10T09:25:10.988Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Category object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-07-10T09:40:37.715Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Звёздные Войны: Восстание",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-07-10T09:53:15.631Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Алхимики",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-07-10T09:54:54.575Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Венский связной",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-07-10T09:56:17.779Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Венский связной",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-07-10T09:56:17.783Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Алхимики",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-07-10T09:56:17.787Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Звёздные Войны: Восстание",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-07-10T09:56:24.051Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Стратегические игры",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-07-10T09:57:47.187Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "SEO для бедных",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-07-10T10:52:39.598Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "SEO для бедных",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-07-10T10:54:04.003Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Стратегические игры",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-07-10T10:55:06.891Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Тактические игры",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-07-10T10:55:59.505Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Тактические игры",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-07-10T10:56:06.124Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Стратегические игры",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-07-10T10:57:09.155Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Ходилки-бродилки",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-07-10T10:57:48.260Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Семейные игры",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-07-10T10:58:18.740Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Игры для 2х игроков",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-07-10T10:58:56.243Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Карточные игры",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-07-10T10:59:55.139Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Игры для детей",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-07-10T11:00:24.413Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Ролевые настольные игры",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-07-10T11:02:04.378Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Приключенческие игры",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-07-10T11:03:05.321Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Венский связной",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-07-10T12:40:41.585Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Венский связной",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0438\\u043c\\u0432\\u043e\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043a\\u043e\\u0434\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-07-10T12:42:25.698Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "126",
+    "object_repr": "Древний Ужас: Забытые Тайны",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 7,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 7,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 7,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 7,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Игра",
+    "content_type": 8,
+    "codename": "add_game"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Игра",
+    "content_type": 8,
+    "codename": "change_game"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Игра",
+    "content_type": 8,
+    "codename": "delete_game"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Игра",
+    "content_type": 8,
+    "codename": "view_game"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$qJgfyF45OgTp4Hr6ADH7qM$UG/hc+LFqV5b8MOPtuU2yr9ltCGplQ6fbxEg5DjhfZg=",
+    "last_login": "2023-07-09T21:35:56.901Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "django@master.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-07-09T20:40:03.392Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "catalog",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "catalog",
+    "model": "game"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3vynnz7bh6b34lgugbxx3fq10v7b22kg",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllrO97FlPQ5Q7TrDw6gRIqTCnF3iJQC2jcz76UG3tY6bC0vw5jURRl1-t2E4yNPO0h3nm6zjvO0LqPoXdEHbbqfU35eD_fvoHKr35rAQuCOgTCmjMI5IQOYc0CyAF4keLRoybmSjBeHVmzpyHgswRGp9wfEUzaq:1qIc4S:HJnlpiK9e-kCHq1KzBzCWTriphLwz2qmhRJzcc5B2KY",
+    "expire_date": "2023-07-23T21:35:56.905Z"
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 4,
+  "fields": {
+    "title": "Венский связной",
+    "description": "\"Венский связной\" – это кооперативная настольная игра, которая вобрала в себя шпионские игры, зашифрованные поручения и детективные расследования. Действия игры разворачиваются в Европе семидесятых годов прошлого века. Вы – шпионы, агенты под прикрытием, чья цель – успешное выполнение порученных миссий. Во время их выполнения вам предстоит путешествовать из одного европейского города в другой, искать в них информаторов и собирать разведданные. На старте игры вам доступны колода карт и некоторое количество зацепок, с их помощью вы и будете получать новую информацию. Только это не так просто, как может показаться: вам придётся изучить не одну кипу архивных документов, начиная с обычных вырезок из газет вплоть до секретных досье и протоколов. Работа в команде – это основное, чему вам предстоит научиться. Каждую минуту вы будете получать от игры не самые лёгкие задачки, решение которых непременно будет зависеть от уровня вашей сплочённости. Коды и шифры, встречающиеся на всём пути прохождения, с головой погружают в атмосферу шпионажа полную секретности.",
+    "slug": "venskij-svyaznoj2",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Gaga/Venskiy_svyaznoy/HG/Venskiy_Svyaznoi-1000x416-wm.jpg",
+    "price": "4990.00",
+    "number_of_persons": "1-5",
+    "duration": "180",
+    "age_limit": 16,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 5,
+  "fields": {
+    "title": "Зомби-котята",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "zombi-kotiata",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Zombie_Kittens/hg/zombie_00-209x273.JPG",
+    "price": "990.00",
+    "number_of_persons": "2-5",
+    "duration": "15",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 5
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 6,
+  "fields": {
+    "title": "Мезень",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "mezen",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Mezen/HG/Mezen00-209x273.JPG",
+    "price": "1990.00",
+    "number_of_persons": "1-5",
+    "duration": "30",
+    "age_limit": 8,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 7,
+  "fields": {
+    "title": "Каркассон",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "karkasson",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Karkasson/2022/carcassonne_2022_00-209x273.jpg",
+    "price": "1490.00",
+    "number_of_persons": "2-5",
+    "duration": "35",
+    "age_limit": 7,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 6
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 8,
+  "fields": {
+    "title": "Особняки безумия. Вторая редакция",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "osobniaki-bezumiia-vtoraia-redaktsiia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Ujas_Arkhema/Osobnyaki_bezumiya/Mansions-of-Madness_box-209x273.jpg",
+    "price": "7990.00",
+    "number_of_persons": "1-5",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 8
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 9,
+  "fields": {
+    "title": "Зомбицид. Вторая редакция",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "zombitsid-vtoraia-redaktsiia",
+    "image": "https://hobbygames.ru/assets/img/svg/visibility_off.svg",
+    "price": "9990.00",
+    "number_of_persons": "1-6",
+    "duration": "60",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 10,
+  "fields": {
+    "title": "Древний Ужас",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "drevnii-uzhas",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Eldritch_horror/EH00-209x273.jpg",
+    "price": "4990.00",
+    "number_of_persons": "1-8",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 6
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 11,
+  "fields": {
+    "title": "Gloomhaven. Мрачная гавань: Челюсти льва",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "gloomhaven-mrachnaia-gavan-cheliusti-lva",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Gloomhaven_Jaws_of_the_Lion/HG/Jaws_of_the_lion_00-209x273.JPG",
+    "price": "5990.00",
+    "number_of_persons": "1-4",
+    "duration": "30",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 12,
+  "fields": {
+    "title": "Сумерки империи. Четвёртое издание",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "sumerki-imperii-chetviortoe-izdanie",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Sumerki_Imperii/Sumerki_Imperii00-209x273.jpg",
+    "price": "13990.00",
+    "number_of_persons": "3-6",
+    "duration": "240",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 5
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 13,
+  "fields": {
+    "title": "Манчкин",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "manchkin",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Munchkin/Munchkin/Munchkin00-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "3-6",
+    "duration": "30",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 14,
+  "fields": {
+    "title": "Бункер",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "bunker",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Ekonomikuc/Bunker/Bunker-209x273.jpg",
+    "price": "2990.00",
+    "number_of_persons": "4-1-6",
+    "duration": "30",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 15,
+  "fields": {
+    "title": "Catan: Колонизаторы",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "catan-kolonizatory",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Kolonizatoru/Catan/Kolonizatory_Baza_Novaya-Korobka00-209x273.jpg",
+    "price": "3990.00",
+    "number_of_persons": "3-4",
+    "duration": "45",
+    "age_limit": 10,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 3
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 16,
+  "fields": {
+    "title": "Властелин колец: Странствия в Средиземье",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "vlastelin-kolets-stranstviia-v-sredizeme",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/LOTR_stranstviya_v_sredizemye/LotR_journey-in-middle-earth-209x273.jpg",
+    "price": "8990.00",
+    "number_of_persons": "1-5",
+    "duration": "60",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 17,
+  "fields": {
+    "title": "Взрывные котята",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "vzryvnye-kotiata",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Explosive_Kitten/2022/HG/vzryvnye_kotyata_2022-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "2-5",
+    "duration": "15",
+    "age_limit": 10,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 18,
+  "fields": {
+    "title": "Масти власти",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "masti-vlasti",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Masti_Vlasti/HG/masti_vlasti-209x273.JPG",
+    "price": "790.00",
+    "number_of_persons": "3-6",
+    "duration": "30",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 11
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 19,
+  "fields": {
+    "title": "Ужас Аркхэма. Третья редакция",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "uzhas-arkkhema-tretia-redaktsiia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Arkham_Horror/3rd_edition/AH_3ed_box_3D_roznica-209x273.jpg",
+    "price": "5990.00",
+    "number_of_persons": "1-6",
+    "duration": "120",
+    "age_limit": 14,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 6
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 20,
+  "fields": {
+    "title": "Fallout",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "fallout",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Fallout/Fallout_3D_roznica-209x273.jpg",
+    "price": "5490.00",
+    "number_of_persons": "1-4",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 21,
+  "fields": {
+    "title": "Битва за Рокуган",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "bitva-za-rokugan",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Bitva_za_Rokugan/bitva-za-rokugan_3D_roznica-209x273.jpg",
+    "price": "2990.00",
+    "number_of_persons": "2-5",
+    "duration": "60",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 22,
+  "fields": {
+    "title": "Ужас Аркхэма. Карточная игра: Путь в Каркозу. Возвращение",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "uzhas-arkkhema-kartochnaia-igra-put-v-karkozu-vozvrashchenie",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Ujas_Arkhema/UA_cardgame/Carcosa_Vozvrasheniye/HG/carcosa_00-209x273.JPG",
+    "price": "1790.00",
+    "number_of_persons": "1-4",
+    "duration": "60",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 23,
+  "fields": {
+    "title": "Кринж",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "krinzh",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Magellan/Shut_Up/shut_up_00-209x273.jpg",
+    "price": "1290.00",
+    "number_of_persons": "3-1-2",
+    "duration": "25",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 11
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 24,
+  "fields": {
+    "title": "Ticket to Ride: Европа ",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "ticket-to-ride-evropa",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Days_of_Wonder/Ticket_To_Ride/Europe/2021/Ticket-to-Ride_Europe00-209x273.jpg",
+    "price": "3990.00",
+    "number_of_persons": "2-5",
+    "duration": "30",
+    "age_limit": 8,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 25,
+  "fields": {
+    "title": "Шерлок Пёс: Детектив с Бейкер-стрит",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "sherlok-pios-detektiv-s-beiker-strit",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Sherlok_Pjos_Detektiv_s_Bejker_strit/HG/sherlock_00-209x273.JPG",
+    "price": "2490.00",
+    "number_of_persons": "1-4",
+    "duration": "45",
+    "age_limit": 10,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 10
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 26,
+  "fields": {
+    "title": "Roll Player Adventures: Приключения в Улосе",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "roll-player-adventures-prikliucheniia-v-ulose",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Roll_Player_Adventures/HG/RPA_00-209x273.JPG",
+    "price": "11990.00",
+    "number_of_persons": "1-4",
+    "duration": "90",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 27,
+  "fields": {
+    "title": "Мачи Коро",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "machi-koro",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Machi_Koro/2021/Machi-Koro_00-209x273.jpg",
+    "price": "1290.00",
+    "number_of_persons": "2-5",
+    "duration": "30",
+    "age_limit": 7,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 28,
+  "fields": {
+    "title": "Непостижимое",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "nepostizhimoe",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Unfathomable/unfathomable_00-209x273.jpg",
+    "price": "5990.00",
+    "number_of_persons": "3-6",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 11
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 29,
+  "fields": {
+    "title": "Runebound. Третья редакция",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "runebound-tretia-redaktsiia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Runebound_3ed/Runebound_3ed_3D_roznica-209x273.jpg",
+    "price": "4990.00",
+    "number_of_persons": "2-4",
+    "duration": "120",
+    "age_limit": 14,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 30,
+  "fields": {
+    "title": "Зомбицид. Вторая редакция: Форт Хендрикс",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "zombitsid-vtoraia-redaktsiia-fort-khendriks",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Zombicide/Zombicide_2nd_Edition_Fort_Hendrix/HG/hendrix_00-209x273.JPG",
+    "price": "4490.00",
+    "number_of_persons": "1-6",
+    "duration": "1",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 8
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 31,
+  "fields": {
+    "title": "Таверна ",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "taverna",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Taverna_KD/Taverna_Krasnyj_Drakon00-209x273.jpg",
+    "price": "1790.00",
+    "number_of_persons": "2-4",
+    "duration": "30",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 5
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 32,
+  "fields": {
+    "title": "Игра Престолов",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "igra-prestolov",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/common/GofTh/agot00-209x273.jpg",
+    "price": "4990.00",
+    "number_of_persons": "3-6",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 5
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 33,
+  "fields": {
+    "title": "Эпичные схватки боевых магов: Битва на горе Черепламени",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "epichnye-skhvatki-boevykh-magov-bitva-na-gore-chereplameni",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Shvatki_Magov/EHpichnye_Skhvatki_Boevyh_Magov_Bitva_Na_Gore_Chereplameni00-209x273.jpg",
+    "price": "1490.00",
+    "number_of_persons": "2-6",
+    "duration": "30",
+    "age_limit": 16,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 3
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 34,
+  "fields": {
+    "title": "Неудержимые единорожки 18+",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "neuderzhimye-edinorozhki-18",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Neuderzhimye_Edinorozhki18/Photos/Neuderzhimye_Edinorozhki18_00-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "2-8",
+    "duration": "30",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 3
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 35,
+  "fields": {
+    "title": "Место преступления",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "mesto-prestupleniia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Mesto_prestuplenia/Mesto_Prestupleniya00-209x273.jpg",
+    "price": "2490.00",
+    "number_of_persons": "1-4",
+    "duration": "60",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 36,
+  "fields": {
+    "title": "Страдающее средневековье",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "stradaiushchee-srednevekove",
+    "image": "https://hobbygames.ru/assets/img/svg/visibility_off.svg",
+    "price": "1890.00",
+    "number_of_persons": "3-6",
+    "duration": "20",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 6
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 37,
+  "fields": {
+    "title": "А.Д.Е.Л.Ь.",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "a-d-e-l",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Magellan/adele/adel-209x273.jpg",
+    "price": "2990.00",
+    "number_of_persons": "1-5",
+    "duration": "90",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 38,
+  "fields": {
+    "title": "Бэнг!",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "beng",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/common/bang/bang_box_100-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "4-7",
+    "duration": "20",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 10
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 39,
+  "fields": {
+    "title": "Age of Wonders: Planetfall",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "age-of-wonders-planetfall",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Age_of_Wonders_Planetfall/age_of_wonders_planetfall_00-209x273.jpg",
+    "price": "1990.00",
+    "number_of_persons": "2-6",
+    "duration": "20",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 40,
+  "fields": {
+    "title": "Космический контакт",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "kosmicheskii-kontakt",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Kosmicheskij_kontakt/Cosmic_Encounter_1-209x273.jpg",
+    "price": "4990.00",
+    "number_of_persons": "3-5",
+    "duration": "60",
+    "age_limit": 14,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 11
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 41,
+  "fields": {
+    "title": "Ужас Аркхэма. Карточная игра: Путь в Каркозу. Кампания",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "uzhas-arkkhema-kartochnaia-igra-put-v-karkozu-kampaniia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Ujas_Arkhema/UA_cardgame/Put_v_Karkozu/Campaign/Carcossa_Campaign_00-209x273.jpg",
+    "price": "3990.00",
+    "number_of_persons": "1-4",
+    "duration": "60",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 42,
+  "fields": {
+    "title": "Эпичные схватки боевых магов: Крутагидон",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "epichnye-skhvatki-boevykh-magov-krutagidon",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Shvatki_Magov/Krutagidon/ESW_Deckbuilding_box_3d-roznica-209x273.jpg",
+    "price": "1790.00",
+    "number_of_persons": "2-5",
+    "duration": "45",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 3
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 43,
+  "fields": {
+    "title": "Затерянный остров",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "zateriannyi-ostrov",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Magellan/Zapretniy_Ostrov/HG/Zateryanniy_Ostrov00-209x273.JPG",
+    "price": "990.00",
+    "number_of_persons": "1-4",
+    "duration": "30",
+    "age_limit": 10,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 10
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 44,
+  "fields": {
+    "title": "Fallout Shelter. Настольная игра",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "fallout-shelter-nastolnaia-igra",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Fallout_Shelter/HG/fallout_shelter-209x273.JPG",
+    "price": "4990.00",
+    "number_of_persons": "2-4",
+    "duration": "60",
+    "age_limit": 15,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 6
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 45,
+  "fields": {
+    "title": "Неудержимые единорожки",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "neuderzhimye-edinorozhki",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Neuderzhimye_edinorozhki/neuderzhimye_edinorozhki_00-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "2-8",
+    "duration": "30",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 8
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 46,
+  "fields": {
+    "title": "Цитадели Классика",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "tsitadeli-klassika",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Citadels_Classic/citadels_classic_00-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "2-7",
+    "duration": "30",
+    "age_limit": 10,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 11
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 47,
+  "fields": {
+    "title": "Звёздные империи. Подарочное издание",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "zviozdnye-imperii-podarochnoe-izdanie",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Star_realms/zvezdnie-imperii_podarochnoe-izdanie2-209x273.jpg",
+    "price": "1290.00",
+    "number_of_persons": "2",
+    "duration": "30",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 48,
+  "fields": {
+    "title": "Small World: Маленький мир",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "small-world-malenkii-mir",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Smallworld/Small-World_3D_roznica-209x273.jpg",
+    "price": "3990.00",
+    "number_of_persons": "2-5",
+    "duration": "40",
+    "age_limit": 8,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 11
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 49,
+  "fields": {
+    "title": "Ярость Дракулы. Третья редакция",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "iarost-drakuly-tretia-redaktsiia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Fury_of_Drakula/YArost_Drakuly00-209x273.jpg",
+    "price": "3990.00",
+    "number_of_persons": "2-5",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 50,
+  "fields": {
+    "title": "Взрывные котята 18+",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "vzryvnye-kotiata-18",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Explosive_Kitten/18/Kotyata18_00-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "2-5",
+    "duration": "15",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 11
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 51,
+  "fields": {
+    "title": "Мор (Утопия) ",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "mor-utopiia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Fabrika_Igr/Mor/Mor_Utopia-209x273.jpg",
+    "price": "2990.00",
+    "number_of_persons": "2-4",
+    "duration": "40",
+    "age_limit": 16,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 52,
+  "fields": {
+    "title": "Индустрия",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "industriia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Industrija/Industry_1-209x273.jpg",
+    "price": "1990.00",
+    "number_of_persons": "2-4",
+    "duration": "30",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 53,
+  "fields": {
+    "title": "Предназначение",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "prednaznachenie",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Destinies/destinies_00-209x273.jpg",
+    "price": "4990.00",
+    "number_of_persons": "1-3",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 5
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 54,
+  "fields": {
+    "title": "Халлертау",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "khallertau",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Hallertau/Hallertau_00-209x273.jpg",
+    "price": "6490.00",
+    "number_of_persons": "1-4",
+    "duration": "50",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 5
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 55,
+  "fields": {
+    "title": "Unmatched: Битва Легенд. Том первый",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "unmatched-bitva-legend-tom-pervyi",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Gaga/Unmatched_Bitva_Legend/UnMatched-209x273.jpg",
+    "price": "3490.00",
+    "number_of_persons": "2-4",
+    "duration": "30",
+    "age_limit": 9,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 56,
+  "fields": {
+    "title": "Эволюция",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "evoliutsiia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Pravilnye_igry/Evolution/2020/Evolution-209x273.jpg",
+    "price": "1390.00",
+    "number_of_persons": "2-4",
+    "duration": "30",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 3
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 57,
+  "fields": {
+    "title": "Взрывные котята: Разрывные котята",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "vzryvnye-kotiata-razryvnye-kotiata",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Explosive_Kitten/Imploding_Kittens/imploding_kittens_00-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "2-6",
+    "duration": "15",
+    "age_limit": 10,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 6
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 58,
+  "fields": {
+    "title": "Ужас Аркхэма. Карточная игра: Наследие Данвича. Кампания",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "uzhas-arkkhema-kartochnaia-igra-nasledie-danvicha-kampaniia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Ujas_Arkhema/UA_cardgame/Dunwich_Campaign/HG/Dunwich_Campaign_00-209x273.JPG",
+    "price": "3990.00",
+    "number_of_persons": "1-4",
+    "duration": "60",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 5
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 59,
+  "fields": {
+    "title": "Иниш",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "inish",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Lavka_Games/Inish/Inish-209x273.jpg",
+    "price": "5490.00",
+    "number_of_persons": "2-4",
+    "duration": "60",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 60,
+  "fields": {
+    "title": "Инициатива",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "initsiativa",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Initiative/Photos/Initiative00-209x273.jpg",
+    "price": "4990.00",
+    "number_of_persons": "1-4",
+    "duration": "30",
+    "age_limit": 8,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 6
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 61,
+  "fields": {
+    "title": "Steam. Железнодорожный магнат",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "steam-zheleznodorozhnyi-magnat",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Steam/Steam00-209x273.jpg",
+    "price": "3490.00",
+    "number_of_persons": "3-5",
+    "duration": "90",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 3
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 62,
+  "fields": {
+    "title": "ЗБС: Злобная, бесстыжая, смешная игра",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "zbs-zlobnaia-besstyzhaia-smeshnaia-igra",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Magellan/ZBS_Zlobnaja_Besstizhaja_Smeshnaja/zbs_00-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "2-8",
+    "duration": "40",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 3
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 63,
+  "fields": {
+    "title": "Мемы: Весело и в точку!",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "memy-veselo-i-v-tochku",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Ekonomikuc/Mems/memy-209x273.JPG",
+    "price": "1490.00",
+    "number_of_persons": "2",
+    "duration": "15",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 5
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 64,
+  "fields": {
+    "title": "Fallout: Новая Калифорния",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "fallout-novaia-kaliforniia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Fallout/New_California/FalloutCalifornia3d_box-209x273.jpg",
+    "price": "3490.00",
+    "number_of_persons": "1-4",
+    "duration": "120",
+    "age_limit": 14,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 65,
+  "fields": {
+    "title": "Сумерки империи. Четвёртая редакция: Пророчество королей",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "sumerki-imperii-chetviortaia-redaktsiia-prorochestvo-korolei",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Symerki_imperii_prorochestvo_korolei/Symerki_prorochestvo_korolei_00-209x273.jpg",
+    "price": "8990.00",
+    "number_of_persons": "3-8",
+    "duration": "240",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 11
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 66,
+  "fields": {
+    "title": "Эпичные схватки боевых магов: Крутагидон. Экстремально острый чипсихоз",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "epichnye-skhvatki-boevykh-magov-krutagidon-ekstremalno-ostryi-chipsikhoz",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Shvatki_Magov/Krutagidon_Chipsihoz/HG/krutogidon_extrimalno_ostriy_chipsio-209x273.jpg",
+    "price": "1990.00",
+    "number_of_persons": "2-5",
+    "duration": "45",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 67,
+  "fields": {
+    "title": "Пандемия: World of Warcraft",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "pandemiia-world-of-warcraft",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Style_Jizny/Pandemia/World_of_Warcraft/pandemic_world_of_warcraft_00-209x273.jpg",
+    "price": "5490.00",
+    "number_of_persons": "1-5",
+    "duration": "45",
+    "age_limit": 14,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 10
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 68,
+  "fields": {
+    "title": "Ляпсус",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "liapsus",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Magellan/Lapsus/HG/lyapsus_00-209x273.JPG",
+    "price": "490.00",
+    "number_of_persons": "2-8",
+    "duration": "20",
+    "age_limit": 8,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 6
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 69,
+  "fields": {
+    "title": "Море, соль, бумага",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "more-sol-bumaga",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Fabrika_Igr/More_sol_bumaga/HG/moresol_00-209x273.JPG",
+    "price": "790.00",
+    "number_of_persons": "2-4",
+    "duration": "30",
+    "age_limit": 8,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 8
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 70,
+  "fields": {
+    "title": "7 чудес: Дуэль",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "7-chudes-duel",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Style_Jizny/7_wonders_Duel_ru/7_wonders_Duel_ru-209x273.jpg",
+    "price": "2490.00",
+    "number_of_persons": "2",
+    "duration": "30",
+    "age_limit": 10,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 8
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 71,
+  "fields": {
+    "title": "Царства зверей",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "tsarstva-zverei",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Magellan/Animal_Kingdoms/HG/Carstva_zverej00-209x273.JPG",
+    "price": "1990.00",
+    "number_of_persons": "1-5",
+    "duration": "45",
+    "age_limit": 10,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 72,
+  "fields": {
+    "title": "Pathfinder. Карточная игра. Базовый набор",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "pathfinder-kartochnaia-igra-bazovyi-nabor",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Pathfinder/Base_Set/Pathfinder_CG_base_1-209x273.jpg",
+    "price": "4490.00",
+    "number_of_persons": "1-4",
+    "duration": "90",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 10
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 73,
+  "fields": {
+    "title": "Звёздные Войны: Внешнее кольцо",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "zviozdnye-voiny-vneshnee-koltso",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Star_Wars_Outer_Rim/SWOuterRim_Box3D-roznica-209x273.jpg",
+    "price": "5990.00",
+    "number_of_persons": "1-4",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 8
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 74,
+  "fields": {
+    "title": "Каркассон: Юбилейное издание",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "karkasson-iubileinoe-izdanie",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Karkasson_Jubilejnoe_izdanie/karkasson_jubilejnoe_izdanie_00-209x273.jpg",
+    "price": "2990.00",
+    "number_of_persons": "2-5",
+    "duration": "35",
+    "age_limit": 7,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 75,
+  "fields": {
+    "title": "Война Кольца: Второе издание",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "voina-koltsa-vtoroe-izdanie",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Gaga/War_of_the_Ring/hg/Voina_Kolca-209x273.jpg",
+    "price": "7990.00",
+    "number_of_persons": "2-4",
+    "duration": "180",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 76,
+  "fields": {
+    "title": "Битоку",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "bitoku",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Bitoku/HG/bitoku-209x273.jpg",
+    "price": "4990.00",
+    "number_of_persons": "1-4",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 77,
+  "fields": {
+    "title": "Властелин колец. Странствия в Средиземье: Ветер войны",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "vlastelin-kolets-stranstviia-v-sredizeme-veter-voiny",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/LOTR_stranstviya_v_sredizemye/Veter_Voiny/HG/vlsstelin_kolec_stranstviya_v_sredizemie_veter_voyni_000-209x273.jpg",
+    "price": "5490.00",
+    "number_of_persons": "1-5",
+    "duration": "60",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 6
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 78,
+  "fields": {
+    "title": "Тайны Аркхэма",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "tainy-arkkhema",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Tainy_Arkhama/Tajny_Arkkhehma00-209x273.jpg",
+    "price": "2990.00",
+    "number_of_persons": "1-8",
+    "duration": "60",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 8
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 79,
+  "fields": {
+    "title": "Ужас Аркхэма. Карточная игра: Капля, поглотившая всё",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "uzhas-arkkhema-kartochnaia-igra-kaplia-poglotivshaia-vsio",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Ujas_Arkhema/UA_cardgame/The_Blob_That_Ate_Everything/HG/Uzhas_Arkkhehma_Kartochnaya_igra_Kaplya_poglotivshaya_vsyo00-209x273.JPG",
+    "price": "990.00",
+    "number_of_persons": "1-4",
+    "duration": "60",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 5
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 80,
+  "fields": {
+    "title": "Звёздные империи: Фронтир",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "zviozdnye-imperii-frontir",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Zvezdnye_Imperii/Frontir/zvezdnye_imperii_frontir_00-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "1-4",
+    "duration": "30",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 8
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 81,
+  "fields": {
+    "title": "Shadow Fight: Битва демонов",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "shadow-fight-bitva-demonov",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Shadow_Fight/HG/shadow_fight_bitva_demonov-209x273.jpg",
+    "price": "490.00",
+    "number_of_persons": "2-4",
+    "duration": "20",
+    "age_limit": 8,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 8
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 82,
+  "fields": {
+    "title": "Трамвай смерти",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "tramvai-smerti",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Magellan/Tramvay_Smerti/Tramvay_Smerti-209x273.jpg",
+    "price": "2490.00",
+    "number_of_persons": "3-1-3",
+    "duration": "15",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 83,
+  "fields": {
+    "title": "Робинзон Крузо. Вторая редакция: Приключения на таинственном острове",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "robinzon-kruzo-vtoraia-redaktsiia-prikliucheniia-na-tainstvennom-ostrove",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Robinzon_Kruzo/Robinzon_Kruzo_Vtoraya_Redakciya00-209x273.jpg",
+    "price": "4990.00",
+    "number_of_persons": "1-4",
+    "duration": "60",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 84,
+  "fields": {
+    "title": "Судный день",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "sudnyi-den",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Magellan/Sudnyi_den/Sudniy_Den-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "4-1-6",
+    "duration": "15",
+    "age_limit": 16,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 85,
+  "fields": {
+    "title": "Нечто: Из глубокой бездны",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "nechto-iz-glubokoi-bezdny",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Nechto/Nechto00-209x273.jpg",
+    "price": "790.00",
+    "number_of_persons": "4-1-2",
+    "duration": "15",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 86,
+  "fields": {
+    "title": "Агрикола",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "agrikola",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Agricola/agrikola_3D_roznica-209x273.jpg",
+    "price": "5490.00",
+    "number_of_persons": "1-4",
+    "duration": "90",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 3
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 87,
+  "fields": {
+    "title": "Нечто. Настольная игра: Норвежская станция",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "nechto-nastolnaia-igra-norvezhskaia-stantsiia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/The_Thing/Norwegian_Outpost/norwegian_outpost_00-209x273.jpg",
+    "price": "3490.00",
+    "number_of_persons": "1-8",
+    "duration": "60",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 88,
+  "fields": {
+    "title": "Зомбицид. Вторая редакция: Хроники выживших. Набор персонажей",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "zombitsid-vtoraia-redaktsiia-khroniki-vyzhivshikh-nabor-personazhei",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Zombicide/Zombicide_2nd_Edition_Chronicles/HG/survivors_00-209x273.JPG",
+    "price": "2690.00",
+    "number_of_persons": "1-6",
+    "duration": "1",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 5
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 89,
+  "fields": {
+    "title": "Нуар",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "nuar",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Gaga/Nuar/Nuar-209x273.jpg",
+    "price": "1090.00",
+    "number_of_persons": "2-9",
+    "duration": "30",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 5
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 90,
+  "fields": {
+    "title": "Рик и Морти: Всмортить всё",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "rik-i-morti-vsmortit-vsio",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Rick_and_Morty_Vsmortit_Vse/2021/Vsmortit_Vsjo00-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "2-5",
+    "duration": "20",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 11
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 91,
+  "fields": {
+    "title": "Космические города",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "kosmicheskie-goroda",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Cosmic_Colonies/hg/Cosmic_Colonies_00-209x273.JPG",
+    "price": "2990.00",
+    "number_of_persons": "1-5",
+    "duration": "30",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 92,
+  "fields": {
+    "title": "Особняки безумия. Вторая редакция: Зловещие путешествия",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "osobniaki-bezumiia-vtoraia-redaktsiia-zloveshchie-puteshestviia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Mansion_of_madness/Horrific_Journeys/horrific_journeys_00-209x273.jpg",
+    "price": "4990.00",
+    "number_of_persons": "1-5",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 11
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 93,
+  "fields": {
+    "title": "Мои чуваки...",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "moi-chuvaki",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Magellan/Moi_chuvaki/HG/Moi_chuvaki_00-209x273.JPG",
+    "price": "1490.00",
+    "number_of_persons": "3-1-1",
+    "duration": "30",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 11
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 94,
+  "fields": {
+    "title": "Ужас Аркхэма. Карточная игра: Путь в Каркозу. Сыщики",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "uzhas-arkkhema-kartochnaia-igra-put-v-karkozu-syshchiki",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Ujas_Arkhema/UA_cardgame/Put_v_Karkozu/Sishhiki/HG/Carcosa_Sishhiki_00-209x273.JPG",
+    "price": "2490.00",
+    "number_of_persons": "1-4",
+    "duration": "60",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 10
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 95,
+  "fields": {
+    "title": "Мандалорец: Грогу и лягушачьи бега",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "mandalorets-grogu-i-liagushachi-bega",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Grogu_i_ljagushachi_bega/Grogu_i_ljagushachi_bega_00-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "2-4",
+    "duration": "15",
+    "age_limit": 6,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 3
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 96,
+  "fields": {
+    "title": "Покорение Марса: Экспедиция ",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "pokorenie-marsa-ekspeditsiia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Lavka_Games/Pokorenie_Marsa/Ekspediciya_Ares/HG/Pokorenie_Marsa-209x273.jpg",
+    "price": "3490.00",
+    "number_of_persons": "1-4",
+    "duration": "60",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 11
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 97,
+  "fields": {
+    "title": "Гравити Фолз",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "graviti-folz",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/GravityFalls/2020/Gravity_Falls_2020_1-209x273.jpg",
+    "price": "2990.00",
+    "number_of_persons": "1-5",
+    "duration": "45",
+    "age_limit": 8,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 11
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 98,
+  "fields": {
+    "title": "Зомбицид. Вторая редакция: Городские легенды. Набор отродий",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "zombitsid-vtoraia-redaktsiia-gorodskie-legendy-nabor-otrodii",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Zombicide/Zombicide_2nd_Edition_Urban_Legends/HG/nabor_otrodiy_00-209x273.JPG",
+    "price": "2290.00",
+    "number_of_persons": "1-6",
+    "duration": "1",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 10
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 99,
+  "fields": {
+    "title": "Страшные сказки",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "strashnye-skazki",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Strashnie_Skazki/Strashnye_Skazki00-209x273.jpg",
+    "price": "790.00",
+    "number_of_persons": "2-4",
+    "duration": "30",
+    "age_limit": 14,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 3
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 100,
+  "fields": {
+    "title": "Ужас Аркхэма. Третья редакция: Секреты ордена",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "uzhas-arkkhema-tretia-redaktsiia-sekrety-ordena",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Arkham_Horror/Secrets_of_the_Order/HG/uzhas_arkhema_tretya_redakciya_sekrety_ordena00-209x273.jpg",
+    "price": "2990.00",
+    "number_of_persons": "1-6",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 10
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 101,
+  "fields": {
+    "title": "7 чудес",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "7-chudes",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Style_Jizny/7_wonders/2020/7_Chudes-209x273.jpg",
+    "price": "3990.00",
+    "number_of_persons": "3-7",
+    "duration": "30",
+    "age_limit": 10,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 102,
+  "fields": {
+    "title": "Ужас Аркхэма. Карточная игра: Наследие Данвича. Сыщики",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "uzhas-arkkhema-kartochnaia-igra-nasledie-danvicha-syshchiki",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Ujas_Arkhema/UA_cardgame/Dunwich_Investigators/HG/Dunwich_Investigators_00-209x273.JPG",
+    "price": "2490.00",
+    "number_of_persons": "1-4",
+    "duration": "60",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 8
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 103,
+  "fields": {
+    "title": "Гномы-вредители Делюкс",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "gnomy-vrediteli-deliuks",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Style_Jizny/Gnomu_vrediteli_delux/Gnomi_Vrediteli-209x273.jpg",
+    "price": "1590.00",
+    "number_of_persons": "2-1-2",
+    "duration": "30",
+    "age_limit": 8,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 3
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 104,
+  "fields": {
+    "title": "Хозяева ночи",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "khoziaeva-nochi",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/CrowD_Games/Hozyaeva_nochi/hozyeava_00-209x273.JPG",
+    "price": "3490.00",
+    "number_of_persons": "1-5",
+    "duration": "45",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 11
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 105,
+  "fields": {
+    "title": "Паранормальный детектив",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "paranormalnyi-detektiv",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Paranormalny_Detective/Photos/Paranormal_3d_right-1-209x273.jpg",
+    "price": "2990.00",
+    "number_of_persons": "2-6",
+    "duration": "45",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 5
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 106,
+  "fields": {
+    "title": "Картографы",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "kartografy",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Kartografi/Cartographers_1-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "1-1-0-0",
+    "duration": "30",
+    "age_limit": 10,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 11
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 107,
+  "fields": {
+    "title": "Звездные империи",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "zvezdnye-imperii",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Zvezdnye_Imperii/zvezdnieImperii2ed-209x273.jpg",
+    "price": "790.00",
+    "number_of_persons": "2",
+    "duration": "30",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 6
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 108,
+  "fields": {
+    "title": "Время приключений. Карточные войны: Финн против Джейка",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "vremia-prikliuchenii-kartochnye-voiny-finn-protiv-dzheika",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Vremya_prikl_CW/AdTime_CW_3D-209x273.jpg",
+    "price": "1290.00",
+    "number_of_persons": "2",
+    "duration": "30",
+    "age_limit": 10,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 3
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 109,
+  "fields": {
+    "title": "Шакал: обновлённая версия ",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "shakal-obnovlionnaia-versiia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Magellan/Jackal/Jakal_new-209x273.jpg",
+    "price": "1990.00",
+    "number_of_persons": "2-4",
+    "duration": "60",
+    "age_limit": 8,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 10
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 110,
+  "fields": {
+    "title": "Чужая планета",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "chuzhaia-planeta",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Gaga/Chujaya_Planeta/Chujaya_Planeta-209x273.jpg",
+    "price": "1690.00",
+    "number_of_persons": "2-7",
+    "duration": "30",
+    "age_limit": 10,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 8
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 111,
+  "fields": {
+    "title": "Эпичные схватки боевых магов: Переполох в Хоромах страсти",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "epichnye-skhvatki-boevykh-magov-perepolokh-v-khoromakh-strasti",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Shvatki_Magov/EHpichnye_Skhvatki_Boevyh_Magov_Perepoloh_V_Horomah_Strasti00-209x273.jpg",
+    "price": "1790.00",
+    "number_of_persons": "2-6",
+    "duration": "30",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 8
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 112,
+  "fields": {
+    "title": "Прогулки с собаками",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "progulki-s-sobakami",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Dog_Park/Dog_Park_00-209x273.jpg",
+    "price": "3990.00",
+    "number_of_persons": "1-4",
+    "duration": "40",
+    "age_limit": 10,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 6
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 113,
+  "fields": {
+    "title": "Замес",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "zames",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Zames/Zames_box00-209x273.jpg",
+    "price": "1490.00",
+    "number_of_persons": "2-4",
+    "duration": "30",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 114,
+  "fields": {
+    "title": "Зомбицид. Вторая редакция: Солдаты-зомби. Набор ходоков-стрелков",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "zombitsid-vtoraia-redaktsiia-soldaty-zombi-nabor-khodokov-strelkov",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Zombicide/Zombicide_2nd_Edition_Zombie_Soldiers/HG/zombie_soldiers_00-209x273.JPG",
+    "price": "990.00",
+    "number_of_persons": "1-6",
+    "duration": "1",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 6
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 115,
+  "fields": {
+    "title": "Маракайбо",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "marakaibo",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Maracaibo/Maracaibo-3d_box_rozn-209x273.jpg",
+    "price": "5990.00",
+    "number_of_persons": "1-4",
+    "duration": "30",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 116,
+  "fields": {
+    "title": "Азул",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "azul",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Zvezda/Azul/Photos/Azul-209x273.jpg",
+    "price": "3990.00",
+    "number_of_persons": "2-4",
+    "duration": "30",
+    "age_limit": 8,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 117,
+  "fields": {
+    "title": "Зомби в доме",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "zombi-v-dome",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Magellan/Zomby_V_Dome-209x273.jpg",
+    "price": "1490.00",
+    "number_of_persons": "2-5",
+    "duration": "30",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 8
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 118,
+  "fields": {
+    "title": "Предвидение",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "predvidenie",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Predvidenie/HG/predvidenie-209x273.JPG",
+    "price": "3990.00",
+    "number_of_persons": "2-4",
+    "duration": "60",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 8
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 119,
+  "fields": {
+    "title": "Runebound. Третья редакция: Нерушимые узы",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "runebound-tretia-redaktsiia-nerushimye-uzy",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Runebound_3ed/Dop_Prikuchenia/Nerushimie_Uzy/Runebound_dopolnenie_nerushimie-uzi_3D-209x273.jpg",
+    "price": "3290.00",
+    "number_of_persons": "1-4",
+    "duration": "60",
+    "age_limit": 14,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 120,
+  "fields": {
+    "title": "Эверделл: Фестиваль",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "everdell-festival",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Everdell/Bellfaire/bellfaire_00-209x273.jpg",
+    "price": "3990.00",
+    "number_of_persons": "1-6",
+    "duration": "40",
+    "age_limit": 10,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 3
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 121,
+  "fields": {
+    "title": "Набор игр ",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "nabor-igr",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/LOTR_stranstviya_v_sredizemye/lotr_bundle-209x273.jpg",
+    "price": "15778.00",
+    "number_of_persons": "1-5",
+    "duration": "90",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 8
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 122,
+  "fields": {
+    "title": "Письма призрака",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "pisma-prizraka",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Ekonomikuc/Pisma_Prizraka/Pisma_Prizraka-209x273.jpg",
+    "price": "1490.00",
+    "number_of_persons": "2-1-2",
+    "duration": "30",
+    "age_limit": 8,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 123,
+  "fields": {
+    "title": "Подземелье: Гробница повелителя мёртвых",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "podzemele-grobnitsa-povelitelia-miortvykh",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Podzemelie/Dungeons_100-209x273.jpg",
+    "price": "890.00",
+    "number_of_persons": "1-4",
+    "duration": "60",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 124,
+  "fields": {
+    "title": "Кольт Экспресс",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "kolt-ekspress",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Style_Jizny/Colt_Express/Colt_Express01-209x273.jpg",
+    "price": "2690.00",
+    "number_of_persons": "2-6",
+    "duration": "30",
+    "age_limit": 10,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 5
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 125,
+  "fields": {
+    "title": "Находка для шпиона / Spyfall",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "nakhodka-dlia-shpiona-spyfall",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Nahodka_dlya_shpiona/spyfall_new_100-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "3-8",
+    "duration": "15",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 126,
+  "fields": {
+    "title": "Древний Ужас: Забытые Тайны",
+    "description": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.",
+    "slug": "drevnii-uzhas-zabytye-tainy",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Drevniy_Uzhas/EH02_3D_roznica00-209x273.jpg",
+    "price": "1990.00",
+    "number_of_persons": "1-8",
+    "duration": "120",
+    "age_limit": 14,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 3
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 127,
+  "fields": {
+    "title": "История рыцаря",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "istoriia-rytsaria",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Glory/HG/istoriya_ricarya-209x273.JPG",
+    "price": "3990.00",
+    "number_of_persons": "1-4",
+    "duration": "30",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 3
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 128,
+  "fields": {
+    "title": "Рюрик",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "riurik",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Rurik/rurik_00-209x273.jpg",
+    "price": "7490.00",
+    "number_of_persons": "1-4",
+    "duration": "30",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 10
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 129,
+  "fields": {
+    "title": "Red 7!",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "red-7",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Red7/Red7-3D-box_rozn-209x273.jpg",
+    "price": "490.00",
+    "number_of_persons": "2-4",
+    "duration": "5",
+    "age_limit": 9,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 3
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 130,
+  "fields": {
+    "title": "Штиль",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "shtil",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Shtil/Photos/Shtil_00-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "1-5",
+    "duration": "20",
+    "age_limit": 8,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 8
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 131,
+  "fields": {
+    "title": "Древний Ужас: Хребты Безумия",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "drevnii-uzhas-khrebty-bezumiia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Eldritch_horror/Hrebti_bezumia/drevnij-uzhas_hrebti-bezumija_3D_roznica-209x273.jpg",
+    "price": "3990.00",
+    "number_of_persons": "1-8",
+    "duration": "120",
+    "age_limit": 14,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 132,
+  "fields": {
+    "title": "Самый ужасный человек",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "samyi-uzhasnyi-chelovek",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Magellan/Samyiy_ujasnyiy_chelovek/Samyiy_ujasnyiy_chelovek_01-209x273.jpg",
+    "price": "1290.00",
+    "number_of_persons": "3-6",
+    "duration": "10",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 5
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 133,
+  "fields": {
+    "title": "Ужас Аркхэма. Третья редакция: Под тёмными волнами",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "uzhas-arkkhema-tretia-redaktsiia-pod-tiomnymi-volnami",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Ujas_Arkhema/Pod_Temnymi_Volnami/Photos/AH_UnderDarkWaves00-209x273.jpg",
+    "price": "4490.00",
+    "number_of_persons": "1-6",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 134,
+  "fields": {
+    "title": "Зомбицид. Вторая редакция: Вашингтон, округ Зомбия",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "zombitsid-vtoraia-redaktsiia-vashington-okrug-zombiia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Zombicide/Zombicide_2nd_Edition_WashingtonZC/Zombicide_Washington_00-209x273.jpg",
+    "price": "4490.00",
+    "number_of_persons": "1-6",
+    "duration": "60",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 10
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 135,
+  "fields": {
+    "title": "Исторический детектив: Смерть на балу",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "istoricheskii-detektiv-smert-na-balu",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Istoricheskiy_Detektiv/Smert_na_Balu/HG/detective-209x273.jpg",
+    "price": "195.00",
+    "number_of_persons": "1-4",
+    "duration": "60",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 10
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 136,
+  "fields": {
+    "title": "Властелин колец. Странствия в Средиземье: Тёмные тропы",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "vlastelin-kolets-stranstviia-v-sredizeme-tiomnye-tropy",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/LOTR_stranstviya_v_sredizemye/Temnye_Tropy/Photos/LOTR_Shadowed_Paths00-209x273.jpg",
+    "price": "6990.00",
+    "number_of_persons": "1-5",
+    "duration": "60",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 137,
+  "fields": {
+    "title": "Особняки безумия. Вторая редакция: Улицы Аркхэма",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "osobniaki-bezumiia-vtoraia-redaktsiia-ulitsy-arkkhema",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Mansion_of_madness/Streets_of_Arkham/MoM_Streets of Arkham_box111-209x273.jpg",
+    "price": "4990.00",
+    "number_of_persons": "1-5",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 4
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 138,
+  "fields": {
+    "title": "Набор игр ",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "nabor-igri-dlya",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Bundles/esbm-209x273.jpg",
+    "price": "6590.00",
+    "number_of_persons": "2-6",
+    "duration": "30",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 10
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 139,
+  "fields": {
+    "title": "Кринж: Без выходных",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "krinzh-bez-vykhodnykh",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Magellan/Shut_Up_Boss/HG/cringe_00-209x273.JPG",
+    "price": "1290.00",
+    "number_of_persons": "3-1-2",
+    "duration": "25",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 10
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 140,
+  "fields": {
+    "title": "Битва пяти воинств",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "bitva-piati-voinstv",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Gaga/Bitva_pjati_voinstv/Bitva_pjati_voinstv_00-209x273.JPG",
+    "price": "7990.00",
+    "number_of_persons": "2",
+    "duration": "60",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 5
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 141,
+  "fields": {
+    "title": "Шакал: Остров Сокровищ",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "shakal-ostrov-sokrovishch",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Magellan/Jackal/Shakal_Ostrov_Sokrovisch/New_photo/shakal_ostrov_sokrovisch-209x273.jpg",
+    "price": "2490.00",
+    "number_of_persons": "2-4",
+    "duration": "60",
+    "age_limit": 6,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 142,
+  "fields": {
+    "title": "Warhammer Quest: Cursed City",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "warhammer-quest-cursed-city",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Games_Workshop_New/Boardgames/Warhammer Quest/Cursed_City/Warhammer-Quest-Cursed-City00-209x273.jpg",
+    "price": "19950.00",
+    "number_of_persons": "1-5",
+    "duration": "60",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 143,
+  "fields": {
+    "title": "Войны Чёрной Розы: Преисподняя",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "voiny-chiornoi-rozy-preispodniaia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Black_Rose_War/Inferno/HG/voyny_chyornoy_rozy_preispodnyaya-209x273.jpg",
+    "price": "8490.00",
+    "number_of_persons": "2-4",
+    "duration": "90",
+    "age_limit": 18,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 11
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 144,
+  "fields": {
+    "title": "Fallout: Атомные узы",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "fallout-atomnye-uzy",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Fallout/Atomic_Bonds/Photos/Fallout_Atomic-Bonds00-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "1-4",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 11
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 145,
+  "fields": {
+    "title": "BattleTech: Вторжение Кланов",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "battletech-vtorzhenie-klanov",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/BattleTech/Boardgame/Vtorzhenie_Klanov/HG/battletech_vtorzhenie_klanov-209x273.jpg",
+    "price": "3990.00",
+    "number_of_persons": "2",
+    "duration": "90",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 146,
+  "fields": {
+    "title": "Пандемия",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "pandemiia",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Style_Jizny/Pandemia/Pandemic_2019-209x273.jpg",
+    "price": "2990.00",
+    "number_of_persons": "2-4",
+    "duration": "40",
+    "age_limit": 8,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 147,
+  "fields": {
+    "title": "Остров духов: Гиблый край",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "ostrov-dukhov-giblyi-krai",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Ostrov_Duhov/Giblij_Kraj/Ostrov_Duhov_Giblij_Kraj_00-209x273.jpg",
+    "price": "4990.00",
+    "number_of_persons": "1-6",
+    "duration": "90",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 148,
+  "fields": {
+    "title": "Ужас Аркхэма. Третья редакция: Во мраке ночи",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "uzhas-arkkhema-tretia-redaktsiia-vo-mrake-nochi",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Ujas_Arkhema/Vo_mrake_nochi/Arkham-Horror-3ed_Dead-of-Night_1-209x273.jpg",
+    "price": "2490.00",
+    "number_of_persons": "1-6",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 6
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 149,
+  "fields": {
+    "title": "Особняки безумия. Вторая редакция: За порогом",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "osobniaki-bezumiia-vtoraia-redaktsiia-za-porogom",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Mansion_of_madness/Za_porogom/Mansions_of_Madness_Beyond_the_Threshold_1-209x273.jpg",
+    "price": "2490.00",
+    "number_of_persons": "1-5",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 150,
+  "fields": {
+    "title": "Да, Темный Властелин! (Да, Хозяин!)",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "da-temnyi-vlastelin-da-khoziain",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Da_Temnyj_Vlastelin/ADO00-209x273.jpg",
+    "price": "990.00",
+    "number_of_persons": "4-9",
+    "duration": "30",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 151,
+  "fields": {
+    "title": "Герои Терринота",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "geroi-terrinota",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Geroi_Terrinota/HeroesOfTerrinoth_box-209x273.jpg",
+    "price": "2490.00",
+    "number_of_persons": "1-4",
+    "duration": "45",
+    "age_limit": 12,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 9
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 152,
+  "fields": {
+    "title": "Азул мини",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "azul-mini",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/Zvezda/Azul/Mini/HG/Mini_00-209x273.JPG",
+    "price": "1990.00",
+    "number_of_persons": "2-4",
+    "duration": "30",
+    "age_limit": 8,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 7
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 153,
+  "fields": {
+    "title": "Особняки безумия. Вторая редакция: Путь змеи",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "osobniaki-bezumiia-vtoraia-redaktsiia-put-zmei",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Mansion_of_madness/Path_of_the_Serpent/Path_of_the_Serpent_00-209x273.jpg",
+    "price": "4990.00",
+    "number_of_persons": "1-5",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 3
+  }
+},
+{
+  "model": "catalog.game",
+  "pk": 154,
+  "fields": {
+    "title": "Игра Престолов: Мать драконов",
+    "description": "\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.\n",
+    "slug": "igra-prestolov-mat-drakonov",
+    "image": "https://hobbygames.ru/image/cache/hobbygames_beta/data/HobbyWorld/Game_of_Thrones/Mat_Drakonov/AGOT_mother_dragon-209x273.jpg",
+    "price": "2990.00",
+    "number_of_persons": "3-8",
+    "duration": "120",
+    "age_limit": 13,
+    "quantity": 1,
+    "availability": true,
+    "number_of_views": 0,
+    "number_of_sales": 0,
+    "category": 6
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 3,
+  "fields": {
+    "title": "Стратегические игры",
+    "slug": "strategicheskie-igry",
+    "image": "categories/2023/cat/free-icon-strategy-development-7699286.png",
+    "description": "Банальные, но неопровержимые выводы, а также сторонники тоталитаризма в науке, инициированные исключительно синтетически, смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. Являясь всего лишь частью общей картины, некоторые особенности внутренней политики представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть представлены в исключительно положительном свете. Есть над чем задуматься: стремящиеся вытеснить традиционное производство, нанотехнологии представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть призваны к ответу."
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 4,
+  "fields": {
+    "title": "Тактические игры",
+    "slug": "takticheskie-igry",
+    "image": "categories/2023/cat/free-icon-chess-6973609.png",
+    "description": "Но независимые государства призывают нас к новым свершениям, которые, в свою очередь, должны быть объективно рассмотрены соответствующими инстанциями. Значимость этих проблем настолько очевидна, что курс на социально-ориентированный национальный проект позволяет оценить значение укрепления моральных ценностей. Как принято считать, сторонники тоталитаризма в науке призывают нас к новым свершениям, которые, в свою очередь, должны быть функционально разнесены на независимые элементы."
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 5,
+  "fields": {
+    "title": "Ходилки-бродилки",
+    "slug": "hodilki-brodilki",
+    "image": "categories/2023/cat/free-icon-board-game-6552351.png",
+    "description": "Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные исследования ограничены исключительно образом мышления. Есть над чем задуматься: явные признаки победы институционализации обнародованы. Как уже неоднократно упомянуто, диаграммы связей набирают популярность среди определенных слоев населения, а значит, должны быть заблокированы в рамках своих собственных рациональных ограничений."
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 6,
+  "fields": {
+    "title": "Семейные игры",
+    "slug": "semejnye-igry",
+    "image": "categories/2023/cat/free-icon-strategy-game-2012588.png",
+    "description": "Принимая во внимание показатели успешности, глубокий уровень погружения требует анализа своевременного выполнения сверхзадачи. Не следует, однако, забывать, что выбранный нами инновационный путь не оставляет шанса для укрепления моральных ценностей. Как уже неоднократно упомянуто, диаграммы связей указаны как претенденты на роль ключевых факторов."
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 7,
+  "fields": {
+    "title": "Игры для 2х игроков",
+    "slug": "igry-dlya-2h-igrokov",
+    "image": "categories/2023/cat/free-icon-chess-6973675.png",
+    "description": "Разнообразный и богатый опыт говорит нам, что понимание сути ресурсосберегающих технологий обеспечивает широкому кругу (специалистов) участие в формировании экспериментов, поражающих по своей масштабности и грандиозности. Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности требует анализа экономической целесообразности принимаемых решений. Каждый из нас понимает очевидную вещь: сложившаяся структура организации, в своём классическом представлении, допускает внедрение первоочередных требований!"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 8,
+  "fields": {
+    "title": "Карточные игры",
+    "slug": "kartochnye-igry",
+    "image": "categories/2023/cat/free-icon-board-game-3430778.png",
+    "description": "Следует отметить, что повышение уровня гражданского сознания предопределяет высокую востребованность стандартных подходов. Как уже неоднократно упомянуто, активно развивающиеся страны третьего мира являются только методом политического участия и объединены в целые кластеры себе подобных. С другой стороны, высокое качество позиционных исследований влечет за собой процесс внедрения и модернизации кластеризации усилий."
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 9,
+  "fields": {
+    "title": "Игры для детей",
+    "slug": "igry-dlya-detej",
+    "image": "categories/2023/cat/free-icon-role-playing-game-6081851.png",
+    "description": "Принимая во внимание показатели успешности, сплочённость команды профессионалов создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса стандартных подходов. Картельные сговоры не допускают ситуации, при которой многие известные личности призывают нас к новым свершениям, которые, в свою очередь, должны быть объективно рассмотрены соответствующими инстанциями. Каждый из нас понимает очевидную вещь: высокотехнологичная концепция общественного уклада способствует подготовке и реализации анализа существующих паттернов поведения."
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 10,
+  "fields": {
+    "title": "Ролевые настольные игры",
+    "slug": "rolevye-nastolnye-igry",
+    "image": "categories/2023/cat/free-icon-potion-7400844.png",
+    "description": "Сложно сказать, почему явные признаки победы институционализации являются только методом политического участия и в равной степени предоставлены сами себе. Следует отметить, что понимание сути ресурсосберегающих технологий, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для новых принципов формирования материально-технической и кадровой базы. Каждый из нас понимает очевидную вещь: убеждённость некоторых оппонентов является качественно новой ступенью благоприятных перспектив!"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 11,
+  "fields": {
+    "title": "Приключенческие игры",
+    "slug": "priklyuchencheskie-igry",
+    "image": "categories/2023/cat/free-icon-rpg-6695099.png",
+    "description": "Прародителем текста-рыбы является известный \"Lorem Ipsum\" — латинский текст, ноги которого растут аж из 45 года до нашей эры. Сервисов по созданию случайного текста на основе Lorem Ipsum великое множество, однако все они имеют один существенный недостаток: их \"рыба текст\" подходит лишь для англоязычных ресурсов/проектов. Мы же, фактически, предлагаем Lorem Ipsum на русском языке — вы можете использовать полученный здесь контент абсолютно бесплатно и в любых целях, не запрещённых законодательством. Однако в случае, если сгенерированный здесь текст используется в коммерческом или публичном проекте, ссылка на наш сервис обязательна."
+  }
+}
+]
