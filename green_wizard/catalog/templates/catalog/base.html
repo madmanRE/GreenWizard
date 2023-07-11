@@ -1,0 +1,122 @@
+{% load static  %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}GreenWizard - Магазин настольных игр{% endblock %}</title>
+</head>
+<body>
+<div class="header_1">
+    <p><a href="#">GreenWizard</a></p>
+    <p><a href="#"><img src="{% static 'img/main.png' %}"></a></p>
+    <p><a href="#"><img src="{% static 'img/free-icon-google-300221.png' %}" width="30px"></a></p>
+    <p><a href="#"><img src="{% static 'img/free-icon-vkontakte-4494517.png' %}" width="30px"></a></p>
+    <p><a href="#"><img src="{% static 'img/free-icon-telegram-3670070.png' %}" width="30px"></a></p>
+    <p><a href="#"><img src="{% static 'img/free-icon-whatsapp-3670051.png' %}" width="30px"></a></p>
+    <p><a href="#"><img src="{% static 'img/free-icon-youtube-3670147.png' %}" width="30px"></a></p>
+    {% if request.user.is_authenticated %}
+    <p><a href="#">Выход</a></p>
+    {% else %}
+    <p><a href="#">Вход</a></p>
+    <p><a href="#">Регистрация</a></p>
+    {% endif %}
+    <p><a href="#">Личный кабинет</a></p>
+    {% if request.user.is_superuser or request.user.is_staff %}
+    <p><a href="/admin/">Админка</a></p>
+    {% endif %}
+</div>
+<div class="header_2">
+    <ul>
+        {% for cat in categories %}
+        <a href="#">
+            <li>
+                <p>{{ cat.title }}</p>
+                <img src="{{cat.image.url}}" width="40px">
+            </li>
+        </a>
+        {% endfor %}
+    </ul>
+    <div class="extra_header">
+        <p><a href="#">Каталог</a></p>
+        <p><a href="#">Блог</a></p>
+        <p><a href="#">Рулбуки и FAQs</a></p>
+        <p><a href="#">Доставка и оплата</a></p>
+        <p><a href="#">О компани</a></p>
+    </div>
+</div>
+<hr>
+<div class="content">
+    {% block content %}
+    <div>
+        <div>
+            <h1>GreenWizard - Магазин настольных</h1>
+            <img src="https://cdna.artstation.com/p/assets/images/images/056/851/390/large/todd-pickens-img-20221130-212141-216.jpg?1670255084"
+                 width="350px">
+            <p>{% lorem 3 p %}</p>
+        </div>
+        <div>
+            <h2>Популярные настольные игры 2023</h2>
+            {% for game in most_popular_games %}
+            <a href="#">
+                <div>
+                    <h4>{{ game.title }}</h4>
+                    <img src="{{ game.image }}" width="100px">
+                    <p>{{game.price}}</p>
+                    <p>{{game.description|truncatechars:150}}</p>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+        <div>
+            <h2>Читайте эти статьи</h2>
+        </div>
+    </div>
+    {% endblock %}
+</div>
+{% block include_js %}
+{% endblock %}
+<div class="footer">
+    <div class="footer-extra-1">
+        <p><a href="#">Подобрать игру</a></p>
+        <p><a href="#">Программа лояльности</a></p>
+        <p><a href="#">ТОП игры по версии BGG</a></p>
+        <p><a href="#">Кот в мешке!</a></p>
+    </div>
+    <div class="footer-extra-2">
+        <p><a href="#">Блог</a></p>
+        <p><a href="#">Новости</a></p>
+        <p><a href="#">Игротеки</a></p>
+        <p><a href="#">Работа у нас</a></p>
+    </div>
+    <div class="footer-extra-3">
+        <p><a href="#">Создали игру?</a></p>
+        <p><a href="#">Игры оптом</a></p>
+        <p><a href="#">Контакты</a></p>
+        <p><a href="#">Вакансии</a></p>
+    </div>
+    {% if not request.user.is_authenticated %}
+    <p><a href="">Вход</a></p>
+    {% endif %}
+    <p><a href="">Забыли пароль</a></p>
+    <p><a href="#">Регистрация</a></p>
+    <p><a href="#"><img src="{% static 'img/free-icon-google-300221.png' %}" width="30px"></a></p>
+    <p><a href="#"><img src="{% static 'img/free-icon-vkontakte-4494517.png' %}" width="30px"></a></p>
+</div>
+<hr>
+<p><a href="#">GreenWizard</a></p>
+<p><a href="#"><img src="{% static 'img/main.png' %}"></a></p>
+<p>Копирование материалов разрешено только по согласию администрации<br>Содержимое сайта не является публичной офертой
+</p>
+<p><a href="">Политика конфиденциальности</a></p>
+<script>
+    {% block domready %}
+    {% endblock %}
+
+
+
+
+
+
+</script>
+</body>
+</html>
