@@ -14,29 +14,48 @@ GreenWizard - Магазин настольных игр | Каталог
 <h1 class="text-center">Каталог настольных игр!</h1>
 <br>
 <div class="row">
-        {% for game in games %}
-            <div class="product-item">
-                <a href="{% url 'catalog:product_detail' slug=game.slug %}"><img src="{{game.image}}"></a>
-                <div class="product-list">
-                    <h3><a href="{% url 'catalog:product_detail' slug=game.slug %}" style="color: black">{{game.title|truncatechars:100}}</a></h3>
-                    <span class="price">₽ {{ game.price }}</span>
-                    <a href="#" class="button">В корзину</a>
-                </div>
-            </div>
-        {% endfor %}
+    {% for game in games %}
+    <div class="product-item">
+        <a href="{% url 'catalog:product_detail' slug=game.slug %}"><img src="{{game.image}}"></a>
+        <div class="product-list">
+            <h3><a href="{% url 'catalog:product_detail' slug=game.slug %}" style="color: black">{{game.title|truncatechars:100}}</a>
+            </h3>
+            <span class="price">₽ {{ game.price }}</span>
+            <a href="#" class="button">В корзину</a>
+        </div>
     </div>
+    {% endfor %}
+</div>
 <br>
-<ul class="pagination justify-content-center">
+<div class="pagination justify-content-center">
     {% if page.has_previous %}
-        <a class="page-link" href="?page={{ page.previous_page_number }}">&lt;</a>
-        <span class="page-divider">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+    <a href="?page={{ page.previous_page_number }}"><img src="{% static 'img/free-icon-previous-9222784.png' %}"
+                                                         width="30px"></a>&nbsp;&nbsp;
+
     {% endif %}
-    <span class="page-number large-number">{{ page.number }} из {{ page.paginator.num_pages }}</span>
+    <span style="font-size: 20px;
+  font-weight: normal;
+  cursor: pointer;
+  text-shadow: -1px -1px #FFF,
+               -2px -2px #FFF,
+               -1px 1px #FFF,
+               -2px 2px #FFF,
+               1px 1px #FFF,
+               2px 2px #FFF,
+               1px -1px #FFF,
+               2px -2px #FFF,
+               -3px -3px 2px #BBB,
+               -3px 3px 2px #BBB,
+               3px 3px 2px #BBB,
+               3px -3px 2px #BBB;
+  color: steelblue;
+  transition: all 1s;">{{ page.number }} из {{ page.paginator.num_pages }}</span>
     {% if page.has_next %}
-        <span class="page-divider">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-        <a class="page-link" href="?page={{ page.next_page_number }}">&gt;</a>
+
+    &nbsp;&nbsp;<a href="?page={{ page.next_page_number }}"> <img src="{% static 'img/free-icon-next-9222783.png' %}"
+                                                                  width="30px"></a>
     {% endif %}
-</ul>
+</div>
 
 
 {% endblock %}
