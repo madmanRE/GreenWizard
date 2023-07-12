@@ -21,10 +21,19 @@
     <p class="product-category">Категория: <a href="{% url 'catalog:category_list' cat_slug=game.category.slug %}">{{game.category}}</a>
     </p>
     <p class="product-destination">Есть в наличие: {% if game.quantity > 0 %} <span style="color: green">Да</span>{% else %} <span style="red">НЕТ</span>{% endif %}</p>
+    <p>
+    {% for tag in game.tags.all %}
+    <a href="{% url 'catalog:products_by_tag' tag.slug %}" class="btn btn-success btn-sm text-white shadow-red">
+        <span>{{ tag.name }}</span>
+    </a>
+    {% endfor %}
+</p>
+
+
     <hr>
     <h3>Похожие игры</h3>
     {% for item in game.likely_games %}
-        <div class="row">
+    <div class="row">
         <a href="{% url 'catalog:product_detail' slug=item.slug %}"><img src="{{item.image}}"></a>
         <div class="product-list">
             <h3><a href="{% url 'catalog:product_detail' slug=item.slug %}" style="color: black">{{item.title|truncatechars:100}}</a>

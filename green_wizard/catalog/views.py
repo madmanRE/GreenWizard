@@ -5,6 +5,7 @@ from django.views.generic.detail import DetailView
 from django.contrib.postgres.search import TrigramSimilarity
 from .forms import SearchForm
 from django.core.paginator import Paginator
+from taggit.models import Tag
 
 
 def index(request):
@@ -33,6 +34,7 @@ class GameListView(ListView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context["page"] = self.page
+        context["tags"] = Tag.objects.all()
         return context
 
 
@@ -102,3 +104,22 @@ def search(request):
         "catalog/products/search.html",
         {"form": form, "query": query, "results": results},
     )
+
+
+def products_by_tag(request, tag_slug):
+    tag = Tag.objects.get(slug=tag_slug)
+    products = Game.objects.filter(tags=tag)
+    paginator = Paginator(products, 16)
+
+    if 'page' in request.GET:
+        page_num = request.GET['page']
+    else:
+        page_num = 1
+    page = paginator.get_page(page_num)
+
+    context = {
+        'tag': tag,
+        'games': products,
+        'page': page,
+    }
+    return render(request, 'catalog/products/list.html', context)

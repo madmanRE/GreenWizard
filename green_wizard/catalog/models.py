@@ -1,5 +1,7 @@
 from django.db import models
 from django.db.models import Count
+from taggit.managers import TaggableManager
+from django.utils.text import slugify
 
 
 class Game(models.Model):
@@ -35,6 +37,7 @@ class Game(models.Model):
         related_name="games",
         verbose_name="Категория игры",
     )
+    tags = TaggableManager()
 
     # bounded_games = //TODO возможно, стоит задать связанные игры самому, возможно реализовать через Redis
     # image_gallery = //TODO точно стоит задать галерею изображений к конкретному товару, но делать этого не буду, т.к. буду парсить сайт конкурентов, чтобы заполнить БД и брать будут только адрес изображений с превью

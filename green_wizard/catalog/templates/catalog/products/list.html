@@ -6,12 +6,34 @@
 {% if category %}
 {{category.title}} | Каталог
 {% else %}
+{% if tag %}
+Настольные игры {{ tag.name | title }}
+{% else %}
 GreenWizard - Магазин настольных игр | Каталог
+{% endif %}
 {% endif %}
 {% endblock %}
 
 {% block content %}
-<h1 class="text-center">Каталог настольных игр!</h1>
+{% if tags %}
+<p class="text-center">
+    {% for tag in tags %}
+    <a href="{% url 'catalog:products_by_tag' tag.slug %}" class="btn btn-success btn-sm text-white shadow-red">
+        <span>{{ tag.name }}</span>
+    </a>
+    {% endfor %}
+</p>
+<br>
+{% endif %}
+<h1 class="text-center">{% if category %}
+    {{category.title}} | Каталог
+    {% else %}
+    {% if tag %}
+    Настольные игры {{ tag.name | title }}
+    {% else %}
+    GreenWizard - Каталог настольных игры
+    {% endif %}
+    {% endif %}</h1>
 <br>
 <div class="row">
     {% for game in games %}
