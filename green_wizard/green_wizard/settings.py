@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "catalog.apps.CatalogConfig",
     "bootstrap5",
+    "django.contrib.postgres",
 ]
 
 MIDDLEWARE = [

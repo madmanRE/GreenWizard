@@ -5,6 +5,8 @@
 <head>
     {% bootstrap_css %}
     {% bootstrap_javascript %}
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}" sizes="32x32"/>
     <meta charset="UTF-8">
     <title>{% block title %}GreenWizard - Магазин настольных игр{% endblock %}</title>
 </head>
@@ -12,12 +14,19 @@
 <div class="sticky-top">
     <div class="navbar navbar-dark bg-dark">
         <div class="navbar navbar-dark bg-dark" style="margin-left: 50px">
-            <p><a class="navbar-brand" href="#">GreenWizard</a></p>
-            <p><a class="navbar-brand" href="#"><img src="{% static 'img/main.png' %}" alt="" width="60" height="54"
+            <p><a class="navbar-brand" href="/">GreenWizard</a></p>
+            <p><a class="navbar-brand" href="/"><img src="{% static 'img/main.png' %}" alt="" width="60" height="54"
                                                      class="d-inline-block align-text-top"></a></p>
+            <p><a class="navbar-brand" href="{% url 'catalog:catalog' %}">Каталог</a></p>
+            <p><a class="navbar-brand" href="#">Блог</a></p>
+            <form style="margin-left:50px" method="get" action="{% url 'catalog:search' %}">
+                {% csrf_token %}
+                <input type="text" name="query" placeholder="Искать здесь...">
+                <button type="submit"></button>
+            </form>
         </div>
-        <div class="navbar navbar-dark bg-dark" style="margin-left: 400px">
-            <div class="navbar navbar-dark bg-dark" style="margin-right: 100px">
+        <div class="navbar navbar-dark bg-dark">
+            <div class="navbar navbar-dark bg-dark" style="margin-right: 50px">
                 <p><a class="navbar-brand" href="#"><img src="{% static 'img/free-icon-google-300221.png' %}"
                                                          width="22px"></a>
                 </p>
@@ -41,24 +50,23 @@
             {% endif %}
             <p><a class="navbar-brand" href="#">Личный кабинет</a></p>
             {% if request.user.is_superuser or request.user.is_staff %}
-            <p><a class="navbar-brand" ref="/admin/">Админка</a></p>
+            <p><a class="navbar-brand" href="/admin/">Админка</a></p>
             {% endif %}
         </div>
     </div>
-    <header class="header_2" style="background-color: Lavender">
+    <header class="header_2" style="background-color: #2F4F4F">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav d-flex">
                         {% for cat in categories %}
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <p class="nav-title">{{ cat.title }}</p>
-                                <img src="{{ cat.image.url }}" class="nav-image" width="40px">
+                        <li class="nav-item" style="margin-right: 10px;">
+                            <a class="nav-link" href="{% url 'catalog:category_list' cat_slug=cat.slug %}" style="margin-left: 15px">
+                                <img src="{{ cat.image.url }}" class="nav-image" width="40px" title="{{cat.title}}">
                             </a>
                         </li>
                         {% endfor %}
@@ -67,19 +75,7 @@
             </div>
         </nav>
 
-        <div class="navbar navbar-expand-lg navbar-light bg-light" style="margin-left: 350px; width: 0px">
-            <p><a class="navbar-brand" href="#">Каталог</a></p>
-            <p><a class="navbar-brand" href="#">Блог</a></p>
-            <p><a class="navbar-brand" href="#">Рулбуки и FAQs</a></p>
-            <p><a class="navbar-brand" href="#">Доставка и оплата</a></p>
-            <p><a class="navbar-brand" href="#">О компании</a></p>
-        </div>
 
-        <form class="d-flex">
-            {% csrf_token %}
-            <input class="form-control me-2" type="text" placeholder="Поиск" aria-label="Search">
-            <button class="btn btn-outline-primary" type="submit">Найти</button>
-        </form>
     </header>
 </div>
 
@@ -91,12 +87,13 @@
             <div class="intro-section">
                 <div class="d-flex justify-content-center">
                     <img src="https://chakiris.club/uploads/posts/2022-02/1644042021_1-chakiris-club-p-mag-zemli-art-fentezi-oboi-1.jpg"
-                         width="350px" class="mb-0">
+                         width="350px" class="mb-0" style="margin-right: 15px">
                     <img src="https://cdna.artstation.com/p/assets/images/images/056/851/390/large/todd-pickens-img-20221130-212141-216.jpg?1670255084"
-                         width="350px" class="mb-0">
+                         width="350px" class="mb-0" style="margin-right: 15px">
                     <img src="https://img4.goodfon.ru/wallpaper/big/1/2c/trung-tin-shinji-elf-prince-art-fentezi-elf-les.jpg"
-                         width="350px" class="mb-0">
+                         width="350px" class="mb-0" style="margin-right: 15px">
                 </div>
+                <br>
                 <h1>GreenWizard - Магазин настольных игр</h1>
                 <p>{% lorem 3 p %}</p>
             </div>
@@ -110,17 +107,14 @@
     <br>
     <div class="row">
         {% for game in most_popular_games %}
-        <div class="col-md-4">
-            <a href="#">
-                <div class="game-card">
-                    <h4>{{ game.title|truncatechars:30 }}</h4>
-                    <img src="{{ game.image }}" width="100px" class="game-image"
-                         style="box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); background-color: #f8f8f8;">
-                    <p class="game-price">{{ game.price }} руб.</p>
-                    <p class="game-description">{{ game.description|truncatechars:100 }}</p>
+            <div class="product-item">
+                <a href="{% url 'catalog:product_detail' slug=game.slug %}"><img src="{{game.image}}"></a>
+                <div class="product-list">
+                    <h3><a href="{% url 'catalog:product_detail' slug=game.slug %}" style="color: black">{{game.title|truncatechars:100}}</a></h3>
+                    <span class="price">₽ {{ game.price }}</span>
+                    <a href="#" class="button">В корзину</a>
                 </div>
-            </a>
-        </div>
+            </div>
         {% endfor %}
     </div>
 </div>
@@ -129,6 +123,7 @@
 {% endblock %}
 {% block include_js %}
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!--
 <script>
     $(document).ready(function () {
         $('.navbar').click(function () {
@@ -136,55 +131,52 @@
         });
     });
 
-</script>
+
+</script> -->
 {% endblock %}
 <hr>
-<footer class="footer">
-    <div class="row">
-        <div class="col-sm-4 footer-extra-1">
-            <p><a href="#">Подобрать игру</a></p>
-            <p><a href="#">Программа лояльности</a></p>
-            <p><a href="#">ТОП игры по версии BGG</a></p>
-            <p><a href="#">Кот в мешке!</a></p>
-        </div>
-        <div class="col-sm-4 footer-extra-2">
-            <p><a href="#">Блог</a></p>
-            <p><a href="#">Новости</a></p>
-            <p><a href="#">Игротеки</a></p>
-            <p><a href="#">Работа у нас</a></p>
-        </div>
-        <div class="col-sm-4 footer-extra-3">
-            <p><a href="#">Создали игру?</a></p>
-            <p><a href="#">Игры оптом</a></p>
-            <p><a href="#">Контакты</a></p>
-            <p><a href="#">Вакансии</a></p>
-        </div>
+
+<footer>
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
     </div>
-    {% if not request.user.is_authenticated %}
-    <p><a href="">Вход</a></p>
-    {% endif %}
+    <ul class="social">
+        <li><a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+        <li><a href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+        <li><a href="#">
+            <ion-icon name="logo-linkedin">
+                <ion-icon>
+        </a></li>
+        <li><a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+        <li><a href="#">
+            <ion-icon name="logo-google"></ion-icon>
+        </a></li>
+        <li><a href="#">
+            <ion-icon name="logo-vk"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+        <li><a href="#">Подобрать игру</a></li>
+        <li><a href="https://boardgamegeek.com/browse/boardgame?sort=rank" target="_blank">ТОП игры по версии BGG</a>
+        </li>
+        <li><a href="#">Блог</a></li>
+        <li><a href="#">Акции и скидки</a></li>
+        <li><a href="#">Контакты</a></li>
+    </ul>
+    <p>©2022 GreenWizard boardgames ⚗️ | All Rights Reserved</p>
 </footer>
-<footer class="navbar navbar-expand-lg navbar-light bg-light" style="width: 0px">
-    <p><a class="navbar-brand" href="#">GreenWizard</a></p>
-    <p><a class="navbar-brand" href="#"><img src="{% static 'img/main.png' %}" alt="" width="60" height="54"
-                                             class="d-inline-block align-text-top"></a></p>
-    <div class="navbar navbar-expand-lg navbar-light bg-light" style="width: 0px; margin-left: 300px">
-        <a class="navbar-brand" href="">Забыли пароль</a>
-        <a class="navbar-brand" href="#">Регистрация</a>
-        <a class="navbar-brand" href="#"><img src="{% static 'img/free-icon-google-300221.png' %}" width="30px"></a>
-        <a class="navbar-brand" href="#"><img src="{% static 'img/free-icon-vkontakte-4494517.png' %}" width="30px"></a>
-    </div>
-    <p><a class="navbar-brand" href="" style="margin-left: 550px">Политика конфиденциальности</a></p>
-</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 <script>
     {% block domready %}
     {% endblock %}
-
-
-
-
-
 
 
 </script>

@@ -1,0 +1,29 @@
+{% extends 'catalog/base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+
+{% block title %}
+Поиск по сайту GreenWizard
+{% endblock %}
+
+{% block content %}
+{% if results %}
+{% for game in results %}
+<div class="product-item">
+    <a href="{% url 'catalog:product_detail' slug=game.slug %}"><img src="{{game.image}}"></a>
+    <div class="product-list">
+        <h3><a href="{% url 'catalog:product_detail' slug=game.slug %}" style="color: black">{{game.title|truncatechars:100}}</a>
+        </h3>
+        <span class="price">₽ {{ game.price }}</span>
+        <a href="#" class="button">В корзину</a>
+    </div>
+</div>
+{% endfor %}
+{% else %}
+<div class="col-md-12 text-center">
+    <h3 style="color:red">По данному запросу нет товаров</h3>
+    <br>
+    <img src="https://warhammergames.ru/_pu/3/56724408.jpg" width="600px" style="border-radius: 15px; box-shadow: 10px 5px 5px green;">
+</div>
+{% endif %}
+{% endblock %}

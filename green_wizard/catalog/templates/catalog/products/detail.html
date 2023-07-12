@@ -1,10 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'catalog/base.html' %}
+{% load bootstrap5 %}
+{% load static %}
 
-</body>
-</html>
+{% block title %}
+{{game.title}} купить в магазине GreenWizard
+{% endblock %}
+
+{% block content %}
+<div class="product">
+    <h1 class="product-title">{{ game.title }}</h1>
+    <p>
+        <span>Количество игроков: {{game.number_of_persons}}</span><br>
+        <span>Время партии: {{game.duration}} минут</span><br>
+        <span>Возрастные ограничения: {{game.age_limit}} лет</span>
+    </p>
+    <img src="{{ game.image }}" alt="{{ game.title }}" class="product-image">
+    <p><a href="#" class="gradient-button">В корзину</a></p>
+    <p class="product-description">{{game.description}}</p>
+    <p class="product-price">Цена: ₽ {{game.price}}</p>
+    <p class="product-category">Категория: <a href="{% url 'catalog:category_list' cat_slug=game.category.slug %}">{{game.category}}</a>
+    </p>
+    <p class="product-destination">Есть в наличие: {% if game.quantity > 0 %} <span style="color: green">Да</span>{% else %} <span style="red">НЕТ</span>{% endif %}</p>
+</div>
+{% endblock %}
