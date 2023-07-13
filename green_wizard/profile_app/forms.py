@@ -18,5 +18,5 @@ class ProfileForm(forms.ModelForm):
 
 
 class PasswordRecovery(forms.Form):
-    username = forms.CharField(label='Имя пользователя')
-    email = forms.EmailField(label='Email')
+    username = forms.CharField(label="Имя пользователя")
+    email = forms.EmailField(label="Email")
