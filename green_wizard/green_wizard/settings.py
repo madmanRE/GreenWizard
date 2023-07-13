@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     "bootstrap5",
     "django.contrib.postgres",
     "taggit",
+    "profile_app.apps.ProfileAppConfig",
+    "social_django",
 ]
 
 MIDDLEWARE = [
@@ -66,6 +68,8 @@ TEMPLATES = [
                 "django.contrib.messages.context_processors.messages",
                 "catalog.context_processors.categories",
                 "catalog.context_processors.most_popular_games",
+                "social_django.context_processors.backends",
+                "social_django.context_processors.login_redirect",
             ],
         },
     },
@@ -126,3 +130,33 @@ MEDIA_ROOT = BASE_DIR / "media"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+LOGIN_REDIRECT_URL = "/"
+LOGIN_URL = "profile_app:login"
+LOGOUT_URL = "profile_app:logout"
+
+SOCIAL_AUTH_POSTGRES_JSONFIELD = True
+
+AUTHENTICATION_BACKENDS = [
+    "django.contrib.auth.backends.ModelBackend",
+    "social_core.backends.google.GoogleOAuth2",
+    "social_core.backends.vk.VKOAuth2",
+    "social_core.backends.github.GithubOAuth2",
+]
+
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = (
+    "279112470741-d2no0lv8m21oa3h240b8637bfgbmbdva.apps.googleusercontent.com"
+)
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = "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"
+
+SOCIAL_AUTH_VK_OAUTH2_KEY = "51689741"
+SOCIAL_AUTH_VK_OAUTH2_SECRET = "YoRs0BVO2ZtlLCzjvHDQ"
+
+SOCIAL_AUTH_GITHUB_KEY = "057599a02c935f6ea756"
+SOCIAL_AUTH_GITHUB_SECRET = "742236f6462b195c523a9bf605a9a084df645f9a"
+
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_HOST_USER = "romangvaramadze@gmail.com"
+EMAIL_HOST_PASSWORD = "xnvgkiswgzoezxcj"
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True

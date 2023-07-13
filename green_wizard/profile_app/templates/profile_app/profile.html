@@ -1,0 +1,42 @@
+{% extends 'catalog/base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+
+{% block title %}
+Профиль пользователя {{profile.username}}
+{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="text-center">
+                <h1>{{ profile.username }}</h1>
+                <img src="{{ profile.avatar.url }}" width="400px" class="img-fluid rounded-circle">
+            </div>
+            <table class="table table-bordered mt-4">
+                <tr>
+                    <th>Телефон</th>
+                    <td>{{ profile.phone }}</td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>{{ profile.email }}</td>
+                </tr>
+                <tr>
+                    <th>Количество покупок</th>
+                    <td>{{ profile.amount_of_purchases }}</td>
+                </tr>
+                <tr>
+                    <th>Скидка</th>
+                    <td>{{ profile.discount }}%</td>
+                </tr>
+            </table>
+            <div class="text-center">
+                <a class="button" style="background-color: #2F4F4F" href="{% url 'profile_app:profile_update' pk=profile.id %}">Изменить!</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

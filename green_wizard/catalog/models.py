@@ -61,8 +61,9 @@ class Game(models.Model):
         pass
 
     def likely_games(self):
-        res = Game.objects.filter(number_of_persons=self.number_of_persons, age_limit=self.age_limit).exclude(
-            id=self.id)[:7]
+        res = Game.objects.filter(
+            number_of_persons=self.number_of_persons, age_limit=self.age_limit
+        ).exclude(id=self.id)[:7]
         return res
 
     def do_number_of_views_plus(self):

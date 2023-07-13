@@ -106,20 +106,20 @@ def search(request):
     )
 
 
+from django.core.paginator import Paginator
+
+
 def products_by_tag(request, tag_slug):
     tag = Tag.objects.get(slug=tag_slug)
     products = Game.objects.filter(tags=tag)
     paginator = Paginator(products, 16)
 
-    if 'page' in request.GET:
-        page_num = request.GET['page']
-    else:
-        page_num = 1
+    page_num = request.GET.get("page", 1)
     page = paginator.get_page(page_num)
 
     context = {
-        'tag': tag,
-        'games': products,
-        'page': page,
+        "tag": tag,
+        "games": page.object_list,
+        "page": page,
     }
-    return render(request, 'catalog/products/list.html', context)
+    return render(request, "catalog/products/list.html", context)

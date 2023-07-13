@@ -13,42 +13,48 @@
 <body style="background-color: Azure; margin-left: 10px; margin-right:10px">
 <div class="sticky-top">
     <div class="navbar navbar-dark bg-dark">
-        <div class="navbar navbar-dark bg-dark" style="margin-left: 50px">
+        <div class="navbar navbar-dark bg-dark text-center" style="margin-left:70px">
             <p><a class="navbar-brand" href="/">GreenWizard</a></p>
             <p><a class="navbar-brand" href="/"><img src="{% static 'img/main.png' %}" alt="" width="60" height="54"
                                                      class="d-inline-block align-text-top"></a></p>
             <p><a class="navbar-brand" href="{% url 'catalog:catalog' %}">Каталог</a></p>
             <p><a class="navbar-brand" href="#">Блог</a></p>
-            <form style="margin-left:50px" method="get" action="{% url 'catalog:search' %}">
+            <form style="margin-left:10px" method="get" action="{% url 'catalog:search' %}">
                 {% csrf_token %}
                 <input type="text" name="query" placeholder="Искать здесь...">
                 <button type="submit"></button>
             </form>
-        </div>
-        <div class="navbar navbar-dark bg-dark">
-            <div class="navbar navbar-dark bg-dark" style="margin-right: 50px">
-                <p><a class="navbar-brand" href="#"><img src="{% static 'img/free-icon-google-300221.png' %}"
-                                                         width="22px"></a>
-                </p>
-                <p><a class="navbar-brand" href="#"><img src="{% static 'img/free-icon-vkontakte-4494517.png' %}"
-                                                         width="22px"></a>
-                </p>
-                <p><a class="navbar-brand" href="#"><img src="{% static 'img/free-icon-telegram-3670070.png' %}"
-                                                         width="22px"></a></p>
-                <p><a class="navbar-brand" href="#"><img src="{% static 'img/free-icon-whatsapp-3670051.png' %}"
-                                                         width="22px"></a></p>
-                <p><a class="navbar-brand" href="#"><img src="{% static 'img/free-icon-youtube-3670147.png' %}"
-                                                         width="22px"></a></p>
-            </div>
+            <p style="margin-left:60px"><a class="navbar-brand" href="{% url 'social:begin' 'google-oauth2' %}"><img
+                    src="{% static 'img/free-icon-google-300221.png' %}"
+                    width="22px"></a>
+            </p>
+            <p><a class="navbar-brand" href="{% url 'social:begin' 'vk-oauth2' %}"><img
+                    src="{% static 'img/free-icon-vkontakte-4494517.png' %}"
+                    width="22px"></a>
+            <p><a class="navbar-brand" href="{% url 'social:begin' 'github' %}"><img
+                    src="{% static 'img/free-icon-github-733553.png' %}"
+                    width="22px"></a>
+            </p>
+            <p><a class="navbar-brand" href="https://t.me/Romon_link" target="_blank"><img src="{% static 'img/free-icon-telegram-3670070.png' %}"
+                                                     width="22px"></a></p>
+            <p><a class="navbar-brand" href="https://web.whatsapp.com/" target="_blank"><img src="{% static 'img/free-icon-whatsapp-3670051.png' %}"
+                                                     width="22px"></a></p>
+            <p style="margin-right:30px"><a class="navbar-brand" href="https://www.youtube.com/" target="_blank"><img src="{% static 'img/free-icon-youtube-3670147.png' %}"
+                                                     width="22px"></a></p>
             <p><a class="navbar-brand" href="#"><img src="{% static 'img/cart.png' %}"
                                                      width="32px"></a></p>
+            <p><a class="navbar-brand" href="{% if request.user.is_authenticated and request.user.username != 'admin' %}{% url 'profile_app:profile_view' pk=request.user.profile.id %}{% else %}#{%endif%}"><img
+                    src="{% if request.user.profile %}{{request.user.profile.avatar.url}} {% else %} {% static 'img/ava-default.png' %} {% endif %}"
+                    width="70px" style="border-radius: 100%"></a></p>
             {% if request.user.is_authenticated %}
-            <p><a class="navbar-brand" href="#">Выход</a></p>
+            <p><a class="navbar-brand" href="{% url 'profile_app:logout' %}">Выход</a></p>
             {% else %}
-            <p><a class="navbar-brand" href="#">Вход</a></p>
-            <p><a class="navbar-brand" href="#">Регистрация</a></p>
+            <p><a class="navbar-brand" href="{% url 'profile_app:login' %}">Вход</a></p>
+            <p><a class="navbar-brand" href="{% url 'profile_app:register' %}">Регистрация</a></p>
             {% endif %}
-            <p><a class="navbar-brand" href="#">Личный кабинет</a></p>
+            {% if request.user.is_authenticated and request.user.username != 'admin' %}
+            <p><a class="navbar-brand" href="{% url 'profile_app:profile_view' pk=request.user.profile.id %}">Личный кабинет</a></p>
+            {% endif %}
             {% if request.user.is_superuser or request.user.is_staff %}
             <p><a class="navbar-brand" href="/admin/">Админка</a></p>
             {% endif %}
@@ -65,7 +71,8 @@
                     <ul class="navbar-nav d-flex">
                         {% for cat in categories %}
                         <li class="nav-item" style="margin-right: 10px;">
-                            <a class="nav-link" href="{% url 'catalog:category_list' cat_slug=cat.slug %}" style="margin-left: 15px">
+                            <a class="nav-link" href="{% url 'catalog:category_list' cat_slug=cat.slug %}"
+                               style="margin-left: 15px">
                                 <img src="{{ cat.image.url }}" class="nav-image" width="40px" title="{{cat.title}}">
                             </a>
                         </li>
@@ -107,14 +114,15 @@
     <br>
     <div class="row">
         {% for game in most_popular_games %}
-            <div class="product-item">
-                <a href="{% url 'catalog:product_detail' slug=game.slug %}"><img src="{{game.image}}"></a>
-                <div class="product-list">
-                    <h3><a href="{% url 'catalog:product_detail' slug=game.slug %}" style="color: black">{{game.title|truncatechars:100}}</a></h3>
-                    <span class="price">₽ {{ game.price }}</span>
-                    <a href="#" class="button">В корзину</a>
-                </div>
+        <div class="product-item">
+            <a href="{% url 'catalog:product_detail' slug=game.slug %}"><img src="{{game.image}}"></a>
+            <div class="product-list">
+                <h3><a href="{% url 'catalog:product_detail' slug=game.slug %}" style="color: black">{{game.title|truncatechars:100}}</a>
+                </h3>
+                <span class="price">₽ {{ game.price }}</span>
+                <a href="#" class="button">В корзину</a>
             </div>
+        </div>
         {% endfor %}
     </div>
 </div>
@@ -160,6 +168,9 @@
         <li><a href="#">
             <ion-icon name="logo-vk"></ion-icon>
         </a></li>
+        <li><a href="#">
+            <ion-icon name="logo-github"></ion-icon>
+        </a></li>
     </ul>
     <ul class="menu">
         <li><a href="#">Подобрать игру</a></li>
@@ -177,6 +188,7 @@
 <script>
     {% block domready %}
     {% endblock %}
+
 
 
 </script>

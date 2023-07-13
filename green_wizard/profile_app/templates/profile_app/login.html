@@ -1,0 +1,22 @@
+{% extends 'catalog/base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+
+{% block title %}
+Вход на сайт
+{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+<h3>Вы уже выполнили вход</h3>
+{% else %}
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Войти">
+</form>
+{% endif %}
+<br>
+<h4 class="text-center"><a href="{% url 'profile_app:password_recovery' %}" class="button" style="background-color: #2F4F4F">Отправить пароль на электронную почту?</a></h4>
+
+{% endblock %}
