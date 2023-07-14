@@ -29,3 +29,17 @@ class Post(models.Model):
     class Meta:
         verbose_name = 'Запись блога'
         verbose_name_plural = 'Записи блога'
+
+
+class Review(models.Model):
+    text = models.TextField(verbose_name='Текст отзыва')
+    author = models.ForeignKey(Profile, on_delete=models.CASCADE, related_name='reviews', verbose_name='Владелец отзыва')
+    post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name='reviews', verbose_name='Запись блога')
+    created_at = models.DateField(auto_now_add=True, verbose_name='Время публикации')
+
+    def __str__(self):
+        return f'Отзыв {self.pk}'
+
+    class Meta:
+        verbose_name = 'Отзыв'
+        verbose_name_plural = 'Отзывы'
