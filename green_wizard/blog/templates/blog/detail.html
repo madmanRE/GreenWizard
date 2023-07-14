@@ -1,0 +1,57 @@
+{% extends 'catalog/base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+
+{% block title %}
+Блог сайта GreenWizard
+{% endblock %}
+
+{% block content %}
+
+<div class="col-md-7">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">{{ post.title }}</h4>
+            {% if request.user.profile == post.author %}<a class="button" href="{% url 'blog:update_post' post.slug %}">Изменить</a>{% endif %}
+            {% if request.user.profile == post.author %}<a class="button" href="{% url 'blog:delete_post' post.slug %}">Удалить</a>{% endif %}
+            {% if post.main_img %}
+            <img src="{{ post.main_img.url }}" class="card-img-top">
+            {% endif %}
+            <p class="card-text">{{ post.p1|linebreaksbr }}</p>
+            {% if post.img1 %}
+            <img src="{{ post.img1.url }}" class="card-img-top">
+            {% endif %}
+            <p class="card-text">{{ post.p2|linebreaksbr }}</p>
+            {% if post.img2 %}
+            <img src="{{ post.img2.url }}" class="card-img-top">
+            {% endif %}
+            <p class="card-text">{{ post.p3|linebreaksbr }}</p>
+            {% if post.img3 %}
+            <img src="{{ post.img3.url }}" class="card-img-top">
+            {% endif %}
+            {% if post.other_text %}
+            <p class="card-text">{{ post.other_text|linebreaksbr }}</p>
+            {% endif %}
+        </div>
+        <div class="card-footer">
+            {% if post.author %}
+            <a href="{% url 'blog:posts_by_author' user_id=post.author.id %}">
+                <p class="card-text">{{ post.author }}</p>
+                <img src="{{post.author.avatar.url}}" width="70px" style="border-radius: 100%">
+            </a>
+            {% endif %}
+            <br>
+            <br>
+            <p class="card-text">{{ post.created_at }}</p>
+            {% for tag in post.tags.all %}
+            <a href="{% url 'blog:posts_by_tag' tag_slug=tag.slug %}"
+               class="btn btn-success btn-sm text-white shadow-red">
+                <span>{{ tag.name }}</span>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

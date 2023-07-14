@@ -18,10 +18,10 @@
             <p><a class="navbar-brand" href="/"><img src="{% static 'img/main.png' %}" alt="" width="60" height="54"
                                                      class="d-inline-block align-text-top"></a></p>
             <p><a class="navbar-brand" href="{% url 'catalog:catalog' %}">Каталог</a></p>
-            <p><a class="navbar-brand" href="#">Блог</a></p>
+            <p><a class="navbar-brand" href="{% url 'blog:blog_list' %}">Блог</a></p>
             <form style="margin-left:10px" method="get" action="{% url 'catalog:search' %}">
                 {% csrf_token %}
-                <input type="text" name="query" placeholder="Искать здесь...">
+                <input type="text" name="query" placeholder="Введите название игры...">
                 <button type="submit"></button>
             </form>
             <p style="margin-left:60px"><a class="navbar-brand" href="{% url 'social:begin' 'google-oauth2' %}"><img

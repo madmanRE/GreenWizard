@@ -1,0 +1,39 @@
+{% extends 'catalog/base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+
+{% block title %}
+Блог сайта GreenWizard
+{% endblock %}
+
+{% block content %}
+<div class="col-md-12 text-center">
+    <a class="button" style="background-color:#2F4F4F" href="{% url 'blog:create_post' %}">Создать запись</a>
+</div>
+{% for post in posts %}
+<div class="col-md-3">
+    <div class="card">
+        <a href="{% url 'blog:blog_detail' slug=post.slug %}">
+            <img src="{% if post.main_img %} {{ post.main_img.url }} {% else %} {% static 'img/no_blog_img.jpg' %} {% endif %}"
+                 class="card-img-top" alt="{{post.title}}">
+        </a>
+        <div class="card-body">
+            <a href="{% url 'blog:blog_detail' slug=post.slug %}">
+                <h4 class="card-title">{{ post.title | truncatechars:30 }}</h4>
+            </a>
+            <p class="card-text">{{ post.p1 | truncatechars:40 }}</p>
+            <p class="card-text" style="color:black">{{ post.created_at }}</p>
+            <a href="{% url 'blog:blog_detail' slug=post.slug %}" class="btn btn-primary">Подробнее</a>
+        </div>
+    </div>
+</div>
+
+{% empty %}
+<div class="col-md-12 text-center">
+    <h3 style="color:red">Тут ничего нет, странник</h3>
+    <br>
+    <img src="https://warhammergames.ru/_pu/3/56724408.jpg" width="600px"
+         style="border-radius: 15px; box-shadow: 10px 5px 5px green;">
+</div>
+{% endfor %}
+{% endblock %}

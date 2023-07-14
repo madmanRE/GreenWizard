@@ -34,7 +34,7 @@ class GameListView(ListView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context["page"] = self.page
-        context["tags"] = Tag.objects.all()
+        context["tags"] = Tag.objects.all()[:10]
         return context
 
 

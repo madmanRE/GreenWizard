@@ -1,0 +1,16 @@
+{% extends 'catalog/base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+
+{% block title %}
+Создание записи
+{% endblock %}
+
+{% block content %}
+<h3>Создать запись</h3>
+<form method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <input type="submit" value="Создать!">
+</form>
+{% endblock %}

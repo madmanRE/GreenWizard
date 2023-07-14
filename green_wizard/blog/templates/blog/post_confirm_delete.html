@@ -1,0 +1,18 @@
+{% extends 'catalog/base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+
+{% block title %}
+Удаление записи
+{% endblock %}
+{% block content %}
+<h1>Подтверждение удаления записи</h1>
+<p>Вы уверены, что хотите удалить запись "{{ object.title }}"?</p>
+
+<form method="post">
+    {% csrf_token %}
+    <input type="submit" value="Удалить">
+    <a href="{% url 'blog:blog_list' %}">Отмена</a>
+</form>
+
+{% endblock %}

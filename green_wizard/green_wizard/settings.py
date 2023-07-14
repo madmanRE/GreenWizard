@@ -136,7 +136,6 @@ LOGIN_REDIRECT_URL = "/"
 LOGIN_URL = "profile_app:login"
 LOGOUT_URL = "profile_app:logout"
 
-SOCIAL_AUTH_POSTGRES_JSONFIELD = True
 
 AUTHENTICATION_BACKENDS = [
     "django.contrib.auth.backends.ModelBackend",
