@@ -18,7 +18,7 @@
     <p><a href="#" class="gradient-button">В корзину</a></p>
     <p class="product-description">{{game.description}}</p>
     <p class="product-price">Цена: ₽ {{game.price}}</p>
-    <p class="product-category">Категория: <a href="{% url 'catalog:category_list' cat_slug=game.category.slug %}">{{game.category}}</a>
+    <p class="product-category">Категория: <a class="button" style="background-color: #2F4F4F" href="{% url 'catalog:category_list' cat_slug=game.category.slug %}">{{game.category}}</a>
     </p>
     <p class="product-destination">Есть в наличие: {% if game.quantity > 0 %} <span style="color: green">Да</span>{% else %} <span style="red">НЕТ</span>{% endif %}</p>
     <p>

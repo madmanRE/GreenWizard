@@ -36,10 +36,11 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "catalog.apps.CatalogConfig",
+    "profile_app.apps.ProfileAppConfig",
+    "blog.apps.BlogConfig",
     "bootstrap5",
     "django.contrib.postgres",
     "taggit",
-    "profile_app.apps.ProfileAppConfig",
     "social_django",
 ]
 
