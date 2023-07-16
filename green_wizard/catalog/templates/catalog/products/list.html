@@ -15,6 +15,15 @@ GreenWizard - Магазин настольных игр | Каталог
 {% endblock %}
 
 {% block content %}
+<section>
+    <div class="Sort">
+        <div class="Sort-title">Сортировать по:</div>
+        <div class="Sort-variants">
+            <a class="Sort-sortBy Sort-sortBy_dec btn btn-link" href="?sort_by=reviews">Популярности</a>
+            <a class="Sort-sortBy btn btn-link" href="?sort_by=price">Цене</a>
+        </div>
+    </div>
+</section>
 {% if tags %}
 <p class="text-center">
     {% for tag in tags %}
@@ -35,6 +44,7 @@ GreenWizard - Магазин настольных игр | Каталог
     {% endif %}
     {% endif %}</h1>
 <br>
+
 <div class="row">
     {% for game in games %}
     <div class="product-item">
@@ -49,6 +59,39 @@ GreenWizard - Магазин настольных игр | Каталог
     {% endfor %}
 </div>
 <br>
+{% if 'filter' in request.path %}
+<div class="pagination justify-content-center">
+    {% if page.has_previous %}
+        <a href="?{{ request.GET.urlencode }}&page={{ page.previous_page_number }}"><img src="{% static 'img/free-icon-previous-9222784.png' %}" width="30px"></a>&nbsp;&nbsp;
+    {% endif %}
+
+    <span style="font-size: 20px;
+        font-weight: normal;
+        cursor: pointer;
+        text-shadow: -1px -1px #FFF,
+            -2px -2px #FFF,
+            -1px 1px #FFF,
+            -2px 2px #FFF,
+            1px 1px #FFF,
+            2px 2px #FFF,
+            1px -1px #FFF,
+            2px -2px #FFF,
+            -3px -3px 2px #BBB,
+            -3px 3px 2px #BBB,
+            3px 3px 2px #BBB,
+            3px -3px 2px #BBB;
+        color: steelblue;
+        transition: all 1s;">
+        {{ page.number }} из {{ page.paginator.num_pages }}
+    </span>
+
+    {% if page.has_next %}
+        &nbsp;&nbsp;<a href="?{{ request.GET.urlencode }}&page={{ page.next_page_number }}">
+            <img src="{% static 'img/free-icon-next-9222783.png' %}" width="30px">
+        </a>
+    {% endif %}
+</div>
+{% else %}
 <div class="pagination justify-content-center">
     {% if page.has_previous %}
     <a href="?page={{ page.previous_page_number }}"><img src="{% static 'img/free-icon-previous-9222784.png' %}"
@@ -78,6 +121,9 @@ GreenWizard - Магазин настольных игр | Каталог
                                                                   width="30px"></a>
     {% endif %}
 </div>
+{% endif %}
+
+
 
 
 {% endblock %}

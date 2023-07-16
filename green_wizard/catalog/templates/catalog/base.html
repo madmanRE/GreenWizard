@@ -35,15 +35,19 @@
                     src="{% static 'img/free-icon-github-733553.png' %}"
                     width="22px"></a>
             </p>
-            <p><a class="navbar-brand" href="https://t.me/Romon_link" target="_blank"><img src="{% static 'img/free-icon-telegram-3670070.png' %}"
-                                                     width="22px"></a></p>
-            <p><a class="navbar-brand" href="https://web.whatsapp.com/" target="_blank"><img src="{% static 'img/free-icon-whatsapp-3670051.png' %}"
-                                                     width="22px"></a></p>
-            <p style="margin-right:30px"><a class="navbar-brand" href="https://www.youtube.com/" target="_blank"><img src="{% static 'img/free-icon-youtube-3670147.png' %}"
-                                                     width="22px"></a></p>
+            <p><a class="navbar-brand" href="https://t.me/Romon_link" target="_blank"><img
+                    src="{% static 'img/free-icon-telegram-3670070.png' %}"
+                    width="22px"></a></p>
+            <p><a class="navbar-brand" href="https://web.whatsapp.com/" target="_blank"><img
+                    src="{% static 'img/free-icon-whatsapp-3670051.png' %}"
+                    width="22px"></a></p>
+            <p style="margin-right:30px"><a class="navbar-brand" href="https://www.youtube.com/" target="_blank"><img
+                    src="{% static 'img/free-icon-youtube-3670147.png' %}"
+                    width="22px"></a></p>
             <p><a class="navbar-brand" href="#"><img src="{% static 'img/cart.png' %}"
                                                      width="32px"></a></p>
-            <p><a class="navbar-brand" href="{% if request.user.is_authenticated and request.user.username != 'admin' %}{% url 'profile_app:profile_view' pk=request.user.profile.id %}{% else %}#{%endif%}"><img
+            <p><a class="navbar-brand"
+                  href="{% if request.user.is_authenticated and request.user.username != 'admin' %}{% url 'profile_app:profile_view' pk=request.user.profile.id %}{% else %}#{%endif%}"><img
                     src="{% if request.user.profile %}{{request.user.profile.avatar.url}} {% else %} {% static 'img/ava-default.png' %} {% endif %}"
                     width="70px" style="border-radius: 100%"></a></p>
             {% if request.user.is_authenticated %}
@@ -53,37 +57,85 @@
             <p><a class="navbar-brand" href="{% url 'profile_app:register' %}">Регистрация</a></p>
             {% endif %}
             {% if request.user.is_authenticated and request.user.username != 'admin' %}
-            <p><a class="navbar-brand" href="{% url 'profile_app:profile_view' pk=request.user.profile.id %}">Личный кабинет</a></p>
+            <p><a class="navbar-brand" href="{% url 'profile_app:profile_view' pk=request.user.profile.id %}">Личный
+                кабинет</a></p>
             {% endif %}
             {% if request.user.is_superuser or request.user.is_staff %}
             <p><a class="navbar-brand" href="/admin/">Админка</a></p>
             {% endif %}
         </div>
     </div>
-    <header class="header_2" style="background-color: #2F4F4F">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav d-flex">
-                        {% for cat in categories %}
-                        <li class="nav-item" style="margin-right: 10px;">
-                            <a class="nav-link" href="{% url 'catalog:category_list' cat_slug=cat.slug %}"
-                               style="margin-left: 15px">
-                                <img src="{{ cat.image.url }}" class="nav-image" width="40px" title="{{cat.title}}">
-                            </a>
-                        </li>
-                        {% endfor %}
-                    </ul>
+    <details style="background-color: #2F4F4F; color:white">
+        <summary>
+            Категории товаров
+        </summary>
+        <header class="header_2" style="background-color: #2F4F4F">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav d-flex">
+                            {% for cat in categories %}
+                            <li class="nav-item" style="margin-right: 10px;">
+                                <a class="nav-link" href="{% url 'catalog:category_list' cat_slug=cat.slug %}"
+                                   style="margin-left: 15px">
+                                    <img src="{{ cat.image.url }}" class="nav-image" width="40px" title="{{cat.title}}">
+                                </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </header>
+    </details>
+    <!--Фильтр начало-->
+    {% if request.path|slice:"-8:" == "catalog/" or request.path|slice:"-7:" == "filter/" %}
+
+<details style="background-color: CadetBlue; color:white">
+        <summary>
+            Фильтры
+        </summary>
+<form action="{% url 'catalog:product_filter' %}" method="get" class="form-inline">
+    {% csrf_token %}
+
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="filter-min-price" class="sr-only">Минимальная цена:</label>
+        <input type="text" name="min_price" id="filter-min-price" class="form-control" placeholder="Минимальная цена">
+    </div>
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="filter-max-price" class="sr-only">Максимальная цена:</label>
+        <input type="text" name="max_price" id="filter-max-price" class="form-control" placeholder="Максимальная цена">
+    </div>
+
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="filter-age-limit" class="sr-only">Возрастное ограничение:</label>
+        <input type="number" name="age_limit" id="filter-age-limit" class="form-control" placeholder="Ограничение по возрасту">
+    </div>
+
+    <div class="form-group mx-sm-3 mb-2">
+    <label for="filter-amount-people" class="sr-only">Количество игроков:</label>
+    <select name="amount_people" id="filter-amount-people" class="form-control">
+        <option value="">Выберите кол-во игроков</option>
+        <option value="1-2">1-2</option>
+        <option value="2-4">2-4</option>
+        <option value="1-5">1-5</option>
+        <option value="3-6">3-6</option>
+    </select>
+</div>
 
 
-    </header>
+    <input type="submit" value="Применить">
+</form>
+
+</details>
+
+
+    {% endif %}
+    <!--Фильтр конец-->
 </div>
 
 <hr>
@@ -188,7 +240,6 @@
 <script>
     {% block domready %}
     {% endblock %}
-
 
 
 </script>

@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 from taggit.managers import TaggableManager
 from profile_app.models import Profile
 from django.utils.text import slugify
@@ -16,7 +17,7 @@ class Post(models.Model):
     img3 = models.ImageField(upload_to='blog/posts/', blank=True, null=True, verbose_name='Изображение 3')
     other_text = models.TextField(blank=True, null=True, verbose_name='Остальной текст')
     created_at = models.DateField(auto_now_add=True, verbose_name='Дата создания')
-    updated = models.DateField(auto_now=True, verbose_name='Дата изменения')
+    updated_at = models.DateField(auto_now=True, verbose_name='Дата изменения')
     tags = TaggableManager()
     author = models.ForeignKey(Profile, null=True, on_delete=models.SET_NULL, related_name='posts',
                                verbose_name='Автор')
@@ -25,6 +26,11 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
+    def get_absolute_url(self):
+        return reverse(
+            "blog:blog_detail",
+            args=[self.slug],
+        )
 
     class Meta:
         verbose_name = 'Запись блога'
@@ -33,7 +39,8 @@ class Post(models.Model):
 
 class Review(models.Model):
     text = models.TextField(verbose_name='Текст отзыва')
-    author = models.ForeignKey(Profile, on_delete=models.CASCADE, related_name='reviews', verbose_name='Владелец отзыва')
+    author = models.ForeignKey(Profile, on_delete=models.CASCADE, related_name='reviews',
+                               verbose_name='Владелец отзыва')
     post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name='reviews', verbose_name='Запись блога')
     created_at = models.DateField(auto_now_add=True, verbose_name='Время публикации')
 

@@ -6,12 +6,14 @@ from .views import (
     GameDetail,
     search,
     products_by_tag,
+    product_filter
 )
 
 app_name = "catalog"
 
 urlpatterns = [
     path("", index, name="index"),
+    path("catalog/filter/", product_filter, name="product_filter"),
     path("catalog/", GameListView.as_view(), name="catalog"),
     path(
         "catalog/<slug:cat_slug>/", GameCategoryListView.as_view(), name="category_list"

@@ -3,9 +3,9 @@ from .models import Game, Category
 from django.views.generic.list import ListView
 from django.views.generic.detail import DetailView
 from django.contrib.postgres.search import TrigramSimilarity
-from .forms import SearchForm
-from django.core.paginator import Paginator
+from .forms import SearchForm, FilterForm
 from taggit.models import Tag
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 
 def index(request):
@@ -26,9 +26,18 @@ class GameListView(ListView):
         return self.render_to_response(context)
 
     def get_queryset(self):
+        sort_param = self.request.GET.get("sort_by", None)
         queryset = Game.objects.filter(availability=True).order_by(
             "-number_of_views", "-number_of_sales"
         )
+        if sort_param == 'price':
+            queryset = Game.objects.filter(availability=True).order_by(
+                "-price"
+            )
+        elif sort_param == 'reviews':
+            queryset = Game.objects.filter(availability=True).order_by(
+                "-number_of_views"
+            )
         return queryset
 
     def get_context_data(self, **kwargs):
@@ -56,11 +65,16 @@ class GameCategoryListView(ListView):
         return self.render_to_response(context)
 
     def get_queryset(self):
-        queryset = (
-            Game.objects.filter(availability=True, category=self.category)
-            .order_by("-number_of_views", "-number_of_sales")
-            .select_related("category")
-        )
+        sort_param = self.request.GET.get("sort_by", None)
+        queryset = Game.objects.filter(availability=True, category=self.category).order_by(
+            "-number_of_views", "-number_of_sales"
+        ).select_related("category")
+        if sort_param == 'price':
+            queryset = Game.objects.filter(availability=True, category=self.category).order_by(
+                "-price").select_related("category")
+        elif sort_param == 'reviews':
+            queryset = Game.objects.filter(availability=True, category=self.category).order_by(
+                "-number_of_views").select_related("category")
         return queryset
 
     def get_context_data(self, **kwargs):
@@ -106,12 +120,17 @@ def search(request):
     )
 
 
-from django.core.paginator import Paginator
-
-
 def products_by_tag(request, tag_slug):
     tag = Tag.objects.get(slug=tag_slug)
+
     products = Game.objects.filter(tags=tag)
+    sort_param = request.GET.get("sort_by", None)
+
+    if sort_param == 'price':
+        products = Game.objects.filter(tags=tag).order_by("-price")
+    elif sort_param == 'reviews':
+        products = Game.objects.filter(tags=tag).order_by("-number_of_views")
+
     paginator = Paginator(products, 16)
 
     page_num = request.GET.get("page", 1)
@@ -121,5 +140,37 @@ def products_by_tag(request, tag_slug):
         "tag": tag,
         "games": page.object_list,
         "page": page,
+    }
+    return render(request, "catalog/products/list.html", context)
+
+
+def product_filter(request):
+    form = FilterForm(request.GET)
+    games = Game.objects.all()
+
+    if form.is_valid():
+        min_price = form.cleaned_data['min_price']
+        max_price = form.cleaned_data['max_price']
+        age_limit = form.cleaned_data['age_limit']
+        amount_people = form.cleaned_data['amount_people']
+
+        if min_price:
+            games = games.filter(price__gte=min_price)
+        if max_price:
+            games = games.filter(price__lte=max_price)
+        if age_limit:
+            games = games.filter(age_limit__gte=age_limit)
+        if amount_people:
+            games = games.filter(number_of_persons=amount_people)
+
+    paginator = Paginator(games, 16)
+
+    page_num = request.GET.get("page", 1)
+    page = paginator.get_page(page_num)
+
+    context = {
+        "games": page.object_list,
+        "page": page,
+        "form": form,
     }
     return render(request, "catalog/products/list.html", context)

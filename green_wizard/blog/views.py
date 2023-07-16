@@ -78,6 +78,14 @@ class PostCreateView(LoginRequiredMixin, CreateView):
     form_class = PostCreateForm
     success_url = '/'
 
+    def post(self, request, *args, **kwargs):
+        form = self.get_form()
+        if form.is_valid():
+            form.instance.author = self.request.user.profile
+            return self.form_valid(form)
+        else:
+            return self.form_invalid(form)
+
 
 class PostUpdateView(LoginRequiredMixin, UpdateView):
     model = Post
