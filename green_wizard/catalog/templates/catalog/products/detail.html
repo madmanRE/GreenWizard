@@ -15,7 +15,11 @@
         <span>Возрастные ограничения: {{game.age_limit}} лет</span>
     </p>
     <img src="{{ game.image }}" alt="{{ game.title }}" class="product-image">
-    <p><a href="#" class="gradient-button">В корзину</a></p>
+    <form action="{% url 'cart:cart_add' game.id %}" method="post">
+                {{ cart_product_form }}
+                {% csrf_token %}
+                <input type="submit" value="В корзину!">
+    </form>
     <p class="product-description">{{game.description}}</p>
     <p class="product-price">Цена: ₽ {{game.price}}</p>
     <p class="product-category">Категория: <a class="button" style="background-color: #2F4F4F" href="{% url 'catalog:category_list' cat_slug=game.category.slug %}">{{game.category}}</a>
@@ -39,7 +43,11 @@
             <h3><a href="{% url 'catalog:product_detail' slug=item.slug %}" style="color: black">{{item.title|truncatechars:100}}</a>
             </h3>
             <span class="price">₽ {{ item.price }}</span>
-            <a href="#" class="button">В корзину</a>
+            <form id="form-{{ game.id }}" action="{% url 'cart:cart_add' game.id %}" method="post">
+                    {{ cart_product_form }}
+                    {% csrf_token %}
+                    <input type="submit" value="В корзину!" class="button">
+                </form>
         </div>
     </div>
     {% endfor %}

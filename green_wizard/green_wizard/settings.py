@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "catalog.apps.CatalogConfig",
     "profile_app.apps.ProfileAppConfig",
     "blog.apps.BlogConfig",
+    "cart.apps.CartConfig",
     "bootstrap5",
     "django.contrib.postgres",
     "taggit",
@@ -75,6 +76,7 @@ TEMPLATES = [
                 "catalog.context_processors.most_popular_games",
                 "social_django.context_processors.backends",
                 "social_django.context_processors.login_redirect",
+                'cart.context_processors.cart',
             ],
         },
     },
@@ -163,3 +165,5 @@ EMAIL_HOST_USER = "romangvaramadze@gmail.com"
 EMAIL_HOST_PASSWORD = "xnvgkiswgzoezxcj"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+CART_SESSION_ID = 'cart'

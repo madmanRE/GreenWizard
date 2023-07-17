@@ -1,0 +1,50 @@
+{% extends 'catalog/base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div class="intro-section">
+                <div class="d-flex justify-content-center">
+                    <img src="https://chakiris.club/uploads/posts/2022-02/1644042021_1-chakiris-club-p-mag-zemli-art-fentezi-oboi-1.jpg"
+                         width="350px" class="mb-0" style="margin-right: 15px">
+                    <img src="https://cdna.artstation.com/p/assets/images/images/056/851/390/large/todd-pickens-img-20221130-212141-216.jpg?1670255084"
+                         width="350px" class="mb-0" style="margin-right: 15px">
+                    <img src="https://img4.goodfon.ru/wallpaper/big/1/2c/trung-tin-shinji-elf-prince-art-fentezi-elf-les.jpg"
+                         width="350px" class="mb-0" style="margin-right: 15px">
+                </div>
+                <br>
+                <h1>GreenWizard - Магазин настольных игр</h1>
+                <p>{% lorem 3 p %}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<div class="popular-games-section text-center">
+    <h2>Популярные настольные игры 2023</h2>
+    <br>
+    <div class="row">
+        {% for game in most_popular_games %}
+        <div class="product-item">
+            <a href="{% url 'catalog:product_detail' slug=game.slug %}"><img src="{{game.image}}"></a>
+            <div class="product-list">
+                <h3><a href="{% url 'catalog:product_detail' slug=game.slug %}" style="color: black">{{game.title|truncatechars:100}}</a>
+                </h3>
+                <span class="price">₽ {{ game.price }}</span>
+                <form id="form-{{ game.id }}" action="{% url 'cart:cart_add' game.id %}" method="post">
+                    {{ cart_product_form }}
+                    {% csrf_token %}
+                    <input type="submit" value="В корзину!" class="button">
+                </form>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+{% endblock %}

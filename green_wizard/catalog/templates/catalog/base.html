@@ -1,15 +1,20 @@
 {% load bootstrap5 %}
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
+
 <head>
     {% bootstrap_css %}
     {% bootstrap_javascript %}
     <link href="{% static 'css/base.css' %}" rel="stylesheet">
     <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}" sizes="32x32"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta charset="UTF-8">
     <title>{% block title %}GreenWizard - Магазин настольных игр{% endblock %}</title>
 </head>
+
+
 <body style="background-color: Azure; margin-left: 10px; margin-right:10px">
 <div class="sticky-top">
     <div class="navbar navbar-dark bg-dark">
@@ -44,7 +49,7 @@
             <p style="margin-right:30px"><a class="navbar-brand" href="https://www.youtube.com/" target="_blank"><img
                     src="{% static 'img/free-icon-youtube-3670147.png' %}"
                     width="22px"></a></p>
-            <p><a class="navbar-brand" href="#"><img src="{% static 'img/cart.png' %}"
+            <p><a class="navbar-brand" href="{% url 'cart:cart_detail' %}"><img src="{% static 'img/cart.png' %}"
                                                      width="32px"></a></p>
             <p><a class="navbar-brand"
                   href="{% if request.user.is_authenticated and request.user.username != 'admin' %}{% url 'profile_app:profile_view' pk=request.user.profile.id %}{% else %}#{%endif%}"><img
@@ -65,6 +70,7 @@
             {% endif %}
         </div>
     </div>
+
     <details style="background-color: #2F4F4F; color:white">
         <summary>
             Категории товаров
@@ -92,6 +98,7 @@
             </nav>
         </header>
     </details>
+
     <!--Фильтр начало-->
     {% if request.path|slice:"-8:" == "catalog/" or request.path|slice:"-7:" == "filter/" %}
 
@@ -133,66 +140,19 @@
 
 </details>
 
-
     {% endif %}
     <!--Фильтр конец-->
 </div>
 
+
 <hr>
 {% block content %}
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <div class="intro-section">
-                <div class="d-flex justify-content-center">
-                    <img src="https://chakiris.club/uploads/posts/2022-02/1644042021_1-chakiris-club-p-mag-zemli-art-fentezi-oboi-1.jpg"
-                         width="350px" class="mb-0" style="margin-right: 15px">
-                    <img src="https://cdna.artstation.com/p/assets/images/images/056/851/390/large/todd-pickens-img-20221130-212141-216.jpg?1670255084"
-                         width="350px" class="mb-0" style="margin-right: 15px">
-                    <img src="https://img4.goodfon.ru/wallpaper/big/1/2c/trung-tin-shinji-elf-prince-art-fentezi-elf-les.jpg"
-                         width="350px" class="mb-0" style="margin-right: 15px">
-                </div>
-                <br>
-                <h1>GreenWizard - Магазин настольных игр</h1>
-                <p>{% lorem 3 p %}</p>
-            </div>
-        </div>
-    </div>
-</div>
 
-<br>
-<div class="popular-games-section text-center">
-    <h2>Популярные настольные игры 2023</h2>
-    <br>
-    <div class="row">
-        {% for game in most_popular_games %}
-        <div class="product-item">
-            <a href="{% url 'catalog:product_detail' slug=game.slug %}"><img src="{{game.image}}"></a>
-            <div class="product-list">
-                <h3><a href="{% url 'catalog:product_detail' slug=game.slug %}" style="color: black">{{game.title|truncatechars:100}}</a>
-                </h3>
-                <span class="price">₽ {{ game.price }}</span>
-                <a href="#" class="button">В корзину</a>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-</div>
-</div>
 
 {% endblock %}
 {% block include_js %}
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!--
-<script>
-    $(document).ready(function () {
-        $('.navbar').click(function () {
-            $('.header_2').toggle();
-        });
-    });
 
 
-</script> -->
 {% endblock %}
 <hr>
 

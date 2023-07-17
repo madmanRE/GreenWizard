@@ -22,7 +22,7 @@
 {% endif %}
 
 <div class="col-md-4">
-    <div class="card" style="background-color:PaleGreen; height: 700px">
+    <div class="card" style="background-color:PaleGreen; height: 700px;">
         <a href="{% url 'blog:blog_detail' slug=post.slug %}">
             <img src="{% if post.main_img %}{{ post.main_img.url }}{% else %}{% static 'img/no_blog_img.jpg' %}{% endif %}"
                  class="card-img-top" alt="{{ post.title }}">

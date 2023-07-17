@@ -4,12 +4,13 @@ from django.views.generic.list import ListView
 from django.views.generic.detail import DetailView
 from django.contrib.postgres.search import TrigramSimilarity
 from .forms import SearchForm, FilterForm
+from cart.forms import CartAddProductForm
 from taggit.models import Tag
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 
 def index(request):
-    return render(request, "catalog/base.html")
+    return render(request, "catalog/products/index.html", {"cart_product_form":CartAddProductForm()})
 
 
 class GameListView(ListView):
@@ -44,6 +45,7 @@ class GameListView(ListView):
         context = super().get_context_data(**kwargs)
         context["page"] = self.page
         context["tags"] = Tag.objects.all()[:10]
+        context["cart_product_form"] = CartAddProductForm()
         return context
 
 
@@ -81,6 +83,7 @@ class GameCategoryListView(ListView):
         context = super().get_context_data(**kwargs)
         context["category"] = self.category
         context["page"] = self.page
+        context["cart_product_form"] = CartAddProductForm()
         return context
 
 
@@ -93,6 +96,7 @@ class GameDetail(DetailView):
         context = super().get_context_data(**kwargs)
         game = self.object
         context["game"] = game
+        context["cart_product_form"] = CartAddProductForm()
         game.do_number_of_views_plus()
         return context
 
@@ -116,7 +120,7 @@ def search(request):
     return render(
         request,
         "catalog/products/search.html",
-        {"form": form, "query": query, "results": results},
+        {"form": form, "query": query, "results": results, "cart_product_form": CartAddProductForm()},
     )
 
 
@@ -140,6 +144,7 @@ def products_by_tag(request, tag_slug):
         "tag": tag,
         "games": page.object_list,
         "page": page,
+        "cart_product_form":CartAddProductForm(),
     }
     return render(request, "catalog/products/list.html", context)
 
@@ -172,5 +177,6 @@ def product_filter(request):
         "games": page.object_list,
         "page": page,
         "form": form,
+        "cart_product_form": CartAddProductForm(),
     }
     return render(request, "catalog/products/list.html", context)

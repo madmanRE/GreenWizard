@@ -1,0 +1,63 @@
+{% extends 'catalog/base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+
+{% block title %}
+Корзина
+{% endblock %}
+
+{% block content %}
+<h1>Корзина</h1>
+<table class="cart" style="width: 100%; max-width: 600px; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="padding: 8px; border: 1px solid #ddd;">Изображение</th>
+      <th style="padding: 8px; border: 1px solid #ddd;">Название товара</th>
+      <th style="padding: 8px; border: 1px solid #ddd;">Количество</th>
+      <th style="padding: 8px; border: 1px solid #ddd;">Удаление</th>
+      <th style="padding: 8px; border: 1px solid #ddd;">Цена товара</th>
+      <th style="padding: 8px; border: 1px solid #ddd;">Общая цена</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in cart %}
+      {% with product=item.product %}
+        <tr>
+          <td style="padding: 8px; border: 1px solid #ddd;">
+            <a href="{{ product.get_absolute_url }}">
+              <img src="{% if product.image %}{{ product.image }}{% else %}{% static 'img/no_image.png' %}{% endif %}" style="max-width: 100px; max-height: 100px;">
+            </a>
+          </td>
+          <td style="padding: 8px; border: 1px solid #ddd;">{{ product.title }}</td>
+          <td style="padding: 8px; border: 1px solid #ddd;">
+            <form action="{% url 'cart:cart_add' product.id %}" method="post">
+              {{ item.update_quantity_form.quantity }}
+              {{ item.update_quantity_form.override }}
+              <input type="submit" value="Update" style="padding: 4px 8px; font-size: 14px; background-color: #007bff; color: #ffffff; border: none; border-radius: 4px; cursor: pointer;">
+              {% csrf_token %}
+            </form>
+          </td>
+          <td style="padding: 8px; border: 1px solid #ddd;">
+            <form action="{% url 'cart:cart_remove' product.id %}" method="post">
+              <input type="submit" value="Remove" style="padding: 4px 8px; font-size: 14px; background-color: #dc3545; color: #ffffff; border: none; border-radius: 4px; cursor: pointer;">
+              {% csrf_token %}
+            </form>
+          </td>
+          <td class="num" style="padding: 8px; border: 1px solid #ddd;">${{ item.price }}</td>
+          <td class="num" style="padding: 8px; border: 1px solid #ddd;">${{ item.total_price }}</td>
+        </tr>
+      {% endwith %}
+    {% endfor %}
+    <tr class="total">
+      <td style="padding: 8px; border: 1px solid #ddd;" colspan="4">Total</td>
+      <td class="num" style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">${{ cart.get_total_price }}</td>
+    </tr>
+  </tbody>
+</table>
+<p class="text-right">
+  <a href="{% url 'catalog:catalog' %}" class="button light" style="text-decoration: none; color: #ffffff; background-color: #007bff; padding: 8px 16px; border-radius: 4px;">Продолжить покупки</a>
+  <a href="#" class="button" style="text-decoration: none; color: #ffffff; background-color: #28a745; padding: 8px 16px; border-radius: 4px;">Оплатить</a>
+</p>
+
+
+{% endblock %}
