@@ -1,8 +1,10 @@
 from django.db import models
 from catalog.models import Game
+from profile_app.models import Profile
 
 
 class Order(models.Model):
+    owner = models.ForeignKey(Profile, related_name='orders', on_delete=models.CASCADE, verbose_name='Заказы')
     first_name = models.CharField(max_length=50, verbose_name='Имя')
     last_name = models.CharField(max_length=50, verbose_name='Отчество')
     email = models.EmailField(verbose_name='Электронная почта')
