@@ -1,0 +1,12 @@
+{% extends 'catalog/base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+
+{% block title %}
+{{game.title}} купить в магазине GreenWizard
+{% endblock %}
+
+{% block content %}
+<h1 style="color:green; font-weight: bold">Спасибо!</h1>
+<p>Ваш заказа успешно создан. Номер вашего заказа: <strong>{{order.id}}</strong></p>
+{% endblock %}

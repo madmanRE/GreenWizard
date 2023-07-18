@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "profile_app.apps.ProfileAppConfig",
     "blog.apps.BlogConfig",
     "cart.apps.CartConfig",
+    "orders.apps.OrdersConfig",
     "bootstrap5",
     "django.contrib.postgres",
     "taggit",

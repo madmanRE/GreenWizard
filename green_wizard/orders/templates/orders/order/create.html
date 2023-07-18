@@ -1,0 +1,28 @@
+{% extends 'catalog/base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+
+{% block title %}
+{{game.title}} купить в магазине GreenWizard
+{% endblock %}
+
+{% block content %}
+<h1>Оплата</h1>
+<div>
+    <h3>Ваш заказ</h3>
+    <ul>
+        {% for item in items %}
+        <li>
+            {{item.quantity}}x {{item.product.title}}
+            <span>₽{{item.total_price}}</span>
+        </li>
+        {% endfor %}
+    </ul>
+    <p>Общая сумма: ₽{{cart.get_total_price}}</p>
+</div>
+<form method="post">
+    {{form.as_p}}
+    <p><input type="submit" value="Создать заказ"></p>
+    {% csrf_token %}
+</form>
+{% endblock %}

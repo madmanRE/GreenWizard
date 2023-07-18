@@ -43,8 +43,8 @@
               {% csrf_token %}
             </form>
           </td>
-          <td class="num" style="padding: 8px; border: 1px solid #ddd;">${{ item.price }}</td>
-          <td class="num" style="padding: 8px; border: 1px solid #ddd;">${{ item.total_price }}</td>
+          <td class="num" style="padding: 8px; border: 1px solid #ddd;">₽{{ item.price }}</td>
+          <td class="num" style="padding: 8px; border: 1px solid #ddd;">₽{{ item.total_price }}</td>
         </tr>
       {% endwith %}
     {% endfor %}
@@ -56,7 +56,7 @@
 </table>
 <p class="text-right">
   <a href="{% url 'catalog:catalog' %}" class="button light" style="text-decoration: none; color: #ffffff; background-color: #007bff; padding: 8px 16px; border-radius: 4px;">Продолжить покупки</a>
-  <a href="#" class="button" style="text-decoration: none; color: #ffffff; background-color: #28a745; padding: 8px 16px; border-radius: 4px;">Оплатить</a>
+  <a href="{% url 'orders:order_create' %}" class="button" style="text-decoration: none; color: #ffffff; background-color: #28a745; padding: 8px 16px; border-radius: 4px;">Оплатить</a>
 </p>
 
 
