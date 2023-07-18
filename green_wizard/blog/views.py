@@ -13,13 +13,11 @@ from django.http import HttpResponseRedirect, HttpResponse
 
 
 class PostListView(ListView):
-    template_name = 'blog/list.html'
-    context_object_name = 'posts'
+    template_name = "blog/list.html"
+    context_object_name = "posts"
 
     def get_queryset(self):
-        queryset = (
-            Post.objects.filter(availability=True)
-        )
+        queryset = Post.objects.filter(availability=True)
         return queryset
 
 
@@ -33,7 +31,7 @@ class PostDetailView(DetailView):
             "form": form,
             "comments": post.reviews.all(),
         }
-        return render(request, 'blog/detail.html', context)
+        return render(request, "blog/detail.html", context)
 
     def post(self, request, *args, **kwargs):
         slug = kwargs.get("slug")
@@ -65,18 +63,15 @@ def post_by_author(request, user_id):
     profile = Profile.objects.get(id=user_id)
     posts = Post.objects.filter(author=profile)
 
-    context = {
-        "posts": posts,
-        "author": profile
-    }
+    context = {"posts": posts, "author": profile}
 
     return render(request, "blog/list.html", context)
 
 
 class PostCreateView(LoginRequiredMixin, CreateView):
-    template_name = 'blog/create.html'
+    template_name = "blog/create.html"
     form_class = PostCreateForm
-    success_url = '/'
+    success_url = "/"
 
     def post(self, request, *args, **kwargs):
         form = self.get_form()
@@ -89,11 +84,11 @@ class PostCreateView(LoginRequiredMixin, CreateView):
 
 class PostUpdateView(LoginRequiredMixin, UpdateView):
     model = Post
-    template_name = 'blog/create.html'
+    template_name = "blog/create.html"
     form_class = PostCreateForm
-    success_url = '/'
+    success_url = "/"
 
 
 class PostDeleteView(LoginRequiredMixin, DeleteView):
     model = Post
-    success_url = reverse_lazy('blog:blog_list')
+    success_url = reverse_lazy("blog:blog_list")

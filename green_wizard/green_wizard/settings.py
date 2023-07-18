@@ -43,12 +43,12 @@ INSTALLED_APPS = [
     "cart.apps.CartConfig",
     "orders.apps.OrdersConfig",
     "payment.apps.PaymentConfig",
-    "bootstrap5",
     "django.contrib.postgres",
-    "taggit",
-    "social_django",
     "django.contrib.sites",
     "django.contrib.sitemaps",
+    "bootstrap5",
+    "taggit",
+    "social_django",
 ]
 
 MIDDLEWARE = [
@@ -78,7 +78,7 @@ TEMPLATES = [
                 "catalog.context_processors.most_popular_games",
                 "social_django.context_processors.backends",
                 "social_django.context_processors.login_redirect",
-                'cart.context_processors.cart',
+                "cart.context_processors.cart",
             ],
         },
     },
@@ -168,7 +168,7 @@ EMAIL_HOST_PASSWORD = "xnvgkiswgzoezxcj"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
-CART_SESSION_ID = 'cart'
+CART_SESSION_ID = "cart"
 
 STRIPE_PUBLISHABLE_KEY = "pk_test_51NPNkRJbl0LlWzfnqOVTzixWbRuQIbD0O3EVSwOYLAz9dVRZHOMJFXAokPIc0lONxMtGxFlslATJn6EfDaOa1QTl00n9JeM00Q"
 STRIPE_SECRET_KEY = "sk_test_51NPNkRJbl0LlWzfnBCWu8NTfJk9R2xIEGbQxacxYHzSAV113JhRCRmS9wytv2GqhdkTLCJx0ZyaLkuVQJ5nUIoGl00rt5s4zR1"

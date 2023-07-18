@@ -22,20 +22,24 @@ from django.contrib.sitemaps.views import sitemap
 from catalog.sitemaps import GreenWizardSitemap
 
 sitemaps = {
-    'catalog': GreenWizardSitemap,
+    "catalog": GreenWizardSitemap,
 }
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("cart/", include("cart.urls", namespace="cart")),
-    path('orders/', include('orders.urls', namespace='orders')),
-    path('payment/', include('payment.urls', namespace='payment')),
+    path("orders/", include("orders.urls", namespace="orders")),
+    path("payment/", include("payment.urls", namespace="payment")),
     path("", include("catalog.urls")),
     path("profile/", include("profile_app.urls")),
     path("blog/", include("blog.urls")),
     path("social-auth/", include("social_django.urls", namespace="social")),
-    path('sitemap.xml', sitemap, {'sitemaps': sitemaps},
-         name='django.contrib.sitemaps.views.sitemap')
+    path(
+        "sitemap.xml",
+        sitemap,
+        {"sitemaps": sitemaps},
+        name="django.contrib.sitemaps.views.sitemap",
+    ),
 ]
 
 if settings.DEBUG:

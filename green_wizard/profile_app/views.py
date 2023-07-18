@@ -31,9 +31,9 @@ class PasswordRecoveryView(View):
                 "",
                 settings.EMAIL_HOST_USER,
                 [email],
-                html_message=f'<p>Уважаемый <strong>{name}</strong>, больше не теряйте ваш пароль - '
-                             f'<strong style="color:green">{password}</strong>. '
-                             f'Посмотрите новые товары в <a href="http://127.0.0.1:8000/">нашем магазине!</a></p>',
+                html_message=f"<p>Уважаемый <strong>{name}</strong>, больше не теряйте ваш пароль - "
+                f'<strong style="color:green">{password}</strong>. '
+                f'Посмотрите новые товары в <a href="http://127.0.0.1:8000/">нашем магазине!</a></p>',
             )
             return redirect("/")
         return render(request, "profile_app/password_recovery.html", {"form": form})

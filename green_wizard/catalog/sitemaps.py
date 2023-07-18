@@ -10,7 +10,7 @@ from django.utils import timezone
 
 
 class GreenWizardSitemap(Sitemap):
-    changefreq = 'weekly'
+    changefreq = "weekly"
     priority = 0.9
 
     def items(self):
@@ -27,7 +27,5 @@ class GreenWizardSitemap(Sitemap):
 
     def location(self, obj):
         if isinstance(obj, Tag):
-            return reverse('catalog:products_by_tag', args=[obj.slug])
+            return reverse("catalog:products_by_tag", args=[obj.slug])
         return obj.get_absolute_url()
-
-

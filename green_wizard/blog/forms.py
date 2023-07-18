@@ -5,7 +5,18 @@ from .models import Post, Review
 class PostCreateForm(forms.ModelForm):
     class Meta:
         model = Post
-        fields = ('title', 'slug', 'main_img', 'p1', 'img1', 'p2', 'img2', 'p3', 'img3', 'other_text')
+        fields = (
+            "title",
+            "slug",
+            "main_img",
+            "p1",
+            "img1",
+            "p2",
+            "img2",
+            "p3",
+            "img3",
+            "other_text",
+        )
 
         def __init__(self, *args, **kwargs):
             self.author = kwargs.pop("author", None)

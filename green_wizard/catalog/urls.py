@@ -6,7 +6,7 @@ from .views import (
     GameDetail,
     search,
     products_by_tag,
-    product_filter
+    product_filter,
 )
 
 app_name = "catalog"

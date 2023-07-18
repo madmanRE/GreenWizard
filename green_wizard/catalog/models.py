@@ -39,8 +39,12 @@ class Game(models.Model):
         verbose_name="Категория игры",
     )
     tags = TaggableManager()
-    created_at = models.DateField(auto_now_add=True, verbose_name='Дата добавления товара')
-    updated_at = models.DateField(auto_now=True, verbose_name='Дата последнего изменения')
+    created_at = models.DateField(
+        auto_now_add=True, verbose_name="Дата добавления товара"
+    )
+    updated_at = models.DateField(
+        auto_now=True, verbose_name="Дата последнего изменения"
+    )
 
     class Meta:
         verbose_name = "Игра"
@@ -81,8 +85,12 @@ class Category(models.Model):
         upload_to="categories/%Y/cat/", blank=True, verbose_name="Изображение"
     )
     description = models.TextField(verbose_name="Описание")
-    created_at = models.DateField(auto_now_add=True, verbose_name='Дата добавления категории')
-    updated_at = models.DateField(auto_now=True, verbose_name='Дата последнего изменения')
+    created_at = models.DateField(
+        auto_now_add=True, verbose_name="Дата добавления категории"
+    )
+    updated_at = models.DateField(
+        auto_now=True, verbose_name="Дата последнего изменения"
+    )
 
     class Meta:
         verbose_name = "Категория игр"

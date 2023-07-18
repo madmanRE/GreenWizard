@@ -10,7 +10,11 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 
 def index(request):
-    return render(request, "catalog/products/index.html", {"cart_product_form":CartAddProductForm()})
+    return render(
+        request,
+        "catalog/products/index.html",
+        {"cart_product_form": CartAddProductForm()},
+    )
 
 
 class GameListView(ListView):
@@ -31,11 +35,9 @@ class GameListView(ListView):
         queryset = Game.objects.filter(availability=True).order_by(
             "-number_of_views", "-number_of_sales"
         )
-        if sort_param == 'price':
-            queryset = Game.objects.filter(availability=True).order_by(
-                "-price"
-            )
-        elif sort_param == 'reviews':
+        if sort_param == "price":
+            queryset = Game.objects.filter(availability=True).order_by("-price")
+        elif sort_param == "reviews":
             queryset = Game.objects.filter(availability=True).order_by(
                 "-number_of_views"
             )
@@ -68,15 +70,23 @@ class GameCategoryListView(ListView):
 
     def get_queryset(self):
         sort_param = self.request.GET.get("sort_by", None)
-        queryset = Game.objects.filter(availability=True, category=self.category).order_by(
-            "-number_of_views", "-number_of_sales"
-        ).select_related("category")
-        if sort_param == 'price':
-            queryset = Game.objects.filter(availability=True, category=self.category).order_by(
-                "-price").select_related("category")
-        elif sort_param == 'reviews':
-            queryset = Game.objects.filter(availability=True, category=self.category).order_by(
-                "-number_of_views").select_related("category")
+        queryset = (
+            Game.objects.filter(availability=True, category=self.category)
+            .order_by("-number_of_views", "-number_of_sales")
+            .select_related("category")
+        )
+        if sort_param == "price":
+            queryset = (
+                Game.objects.filter(availability=True, category=self.category)
+                .order_by("-price")
+                .select_related("category")
+            )
+        elif sort_param == "reviews":
+            queryset = (
+                Game.objects.filter(availability=True, category=self.category)
+                .order_by("-number_of_views")
+                .select_related("category")
+            )
         return queryset
 
     def get_context_data(self, **kwargs):
@@ -120,7 +130,12 @@ def search(request):
     return render(
         request,
         "catalog/products/search.html",
-        {"form": form, "query": query, "results": results, "cart_product_form": CartAddProductForm()},
+        {
+            "form": form,
+            "query": query,
+            "results": results,
+            "cart_product_form": CartAddProductForm(),
+        },
     )
 
 
@@ -130,9 +145,9 @@ def products_by_tag(request, tag_slug):
     products = Game.objects.filter(tags=tag)
     sort_param = request.GET.get("sort_by", None)
 
-    if sort_param == 'price':
+    if sort_param == "price":
         products = Game.objects.filter(tags=tag).order_by("-price")
-    elif sort_param == 'reviews':
+    elif sort_param == "reviews":
         products = Game.objects.filter(tags=tag).order_by("-number_of_views")
 
     paginator = Paginator(products, 16)
@@ -144,7 +159,7 @@ def products_by_tag(request, tag_slug):
         "tag": tag,
         "games": page.object_list,
         "page": page,
-        "cart_product_form":CartAddProductForm(),
+        "cart_product_form": CartAddProductForm(),
     }
     return render(request, "catalog/products/list.html", context)
 
@@ -154,10 +169,10 @@ def product_filter(request):
     games = Game.objects.all()
 
     if form.is_valid():
-        min_price = form.cleaned_data['min_price']
-        max_price = form.cleaned_data['max_price']
-        age_limit = form.cleaned_data['age_limit']
-        amount_people = form.cleaned_data['amount_people']
+        min_price = form.cleaned_data["min_price"]
+        max_price = form.cleaned_data["max_price"]
+        age_limit = form.cleaned_data["age_limit"]
+        amount_people = form.cleaned_data["amount_people"]
 
         if min_price:
             games = games.filter(price__gte=min_price)
