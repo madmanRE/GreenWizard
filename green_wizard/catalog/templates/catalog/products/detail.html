@@ -5,6 +5,33 @@
 {% block title %}
 {{game.title}} купить в магазине GreenWizard
 {% endblock %}
+{% block style %}
+<style>
+        label {
+            display: block;
+            font-size: 20px;
+            color: #555;
+            margin-bottom: 12px;
+            font-family: Arial, sans-serif;
+        }
+
+        select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-color: #f1f1f1;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            margin-bottom: 5px;
+            padding: 6px;
+            font-size: 18px;
+            color: #333;
+            width: 40px;
+
+        }
+
+    </style>
+{% endblock %}
 
 {% block content %}
 <div class="product">
@@ -18,7 +45,7 @@
     <form action="{% url 'cart:cart_add' game.id %}" method="post">
                 {{ cart_product_form }}
                 {% csrf_token %}
-                <input type="submit" value="В корзину!">
+                <input class="btn btn-success" type="submit" value="В корзину!">
     </form>
     <p class="product-description">{{game.description}}</p>
     <p class="product-price">Цена: ₽ {{game.price}}</p>
@@ -43,11 +70,7 @@
             <h3><a href="{% url 'catalog:product_detail' slug=item.slug %}" style="color: black">{{item.title|truncatechars:100}}</a>
             </h3>
             <span class="price">₽ {{ item.price }}</span>
-            <form id="form-{{ game.id }}" action="{% url 'cart:cart_add' game.id %}" method="post">
-                    {{ cart_product_form }}
-                    {% csrf_token %}
-                    <input type="submit" value="В корзину!" class="button">
-                </form>
+            <a class="button" href="{% url 'catalog:product_detail' item.slug %}">Подробнее</a>
         </div>
     </div>
     {% endfor %}

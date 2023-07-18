@@ -1,0 +1,41 @@
+{% extends 'catalog/base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+
+{% block style %}
+<style>
+        label {
+            display: block;
+            font-size: 20px;
+            color: #555;
+            margin-bottom: 12px;
+            font-family: Arial, sans-serif;
+        }
+
+        select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-color: #f1f1f1;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+             padding: 6px;
+           margin-bottom: 5px;
+            font-size: 18px;
+            color: #333;
+            width: 40px;
+
+        }
+
+
+</style>
+{% endblock %}
+
+{% block title %}Payment canceled{% endblock %}
+
+{% block content %}
+<h1 style="color:green; font-weight: bold">Заказ успешно оформлен!</h1>
+<p>Ваш заказ успешно создан и оплачен. Эльфы шлют свою благодарность.</p>
+<br>
+    <img src="https://warhammergames.ru/_pu/3/56724408.jpg" width="600px" style="border-radius: 15px; box-shadow: 10px 5px 5px green;">
+{% endblock %}
