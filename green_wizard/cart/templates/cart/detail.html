@@ -49,8 +49,8 @@
       {% endwith %}
     {% endfor %}
     <tr class="total">
-      <td style="padding: 8px; border: 1px solid #ddd;" colspan="4">Total</td>
-      <td class="num" style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">${{ cart.get_total_price }}</td>
+      <td style="padding: 8px; border: 1px solid #ddd;" colspan="4">Общая стоимость</td>
+      <td class="num" style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">₽{{ cart.get_total_price }}</td>
     </tr>
   </tbody>
 </table>

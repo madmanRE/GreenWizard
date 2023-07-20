@@ -54,7 +54,8 @@
             <p><a class="navbar-brand" href="{% url 'cart:cart_detail' %}"><img src="{% static 'img/cart.png' %}"
                                                      width="32px"></a></p>
             <p><a class="navbar-brand"
-                  href="{% if request.user.is_authenticated and request.user.username != 'admin' %}{% url 'profile_app:profile_view' pk=request.user.profile.id %}{% else %}#{%endif%}"><img
+                  href="{% if request.user.is_authenticated and request.user.username != 'admin' and request.user.profile.id != '' %}{% url 'profile_app:profile_view' pk=request.user.profile.id %}{% else %}#{% endif %}">
+            <img
                     src="{% if request.user.profile %}{{request.user.profile.avatar.url}} {% else %} {% static 'img/ava-default.png' %} {% endif %}"
                     width="70px" style="border-radius: 100%"></a></p>
             {% if request.user.is_authenticated %}
@@ -63,8 +64,8 @@
             <p><a class="navbar-brand" href="{% url 'profile_app:login' %}">Вход</a></p>
             <p><a class="navbar-brand" href="{% url 'profile_app:register' %}">Регистрация</a></p>
             {% endif %}
-            {% if request.user.is_authenticated and request.user.username != 'admin' %}
-            <p><a class="navbar-brand" href="{% url 'profile_app:profile_view' pk=request.user.profile.id %}">Личный
+            {% if request.user.is_authenticated and request.user.username != 'admin' and request.user.profile.id != '' %}
+            <p><a class="navbar-brand" href="{% url 'profile_app:profile_view' pk=request.user.profile.id%}">Личный
                 кабинет</a></p>
             {% endif %}
             {% if request.user.is_superuser or request.user.is_staff %}
