@@ -282,17 +282,17 @@
     
     #часть кода по генерации sitemap
     class GreenWizardSitemap(Sitemap):
-    changefreq = "weekly"
-    priority = 0.9
-
-    def items(self):
-        games = Game.objects.filter(availability=True)
-        categories = Category.objects.all()
-        posts = Post.objects.filter(availability=True)
-        tags = Tag.objects.all()
-        return list(chain(posts, categories, games, tags))
+        changefreq = "weekly"
+        priority = 0.9
     
-    def lastmod(self, obj):
-        if not isinstance(obj, Tag) and obj.updated_at:
-            return obj.updated_at
-        return timezone.now().date()
+        def items(self):
+            games = Game.objects.filter(availability=True)
+            categories = Category.objects.all()
+            posts = Post.objects.filter(availability=True)
+            tags = Tag.objects.all()
+            return list(chain(posts, categories, games, tags))
+        
+        def lastmod(self, obj):
+            if not isinstance(obj, Tag) and obj.updated_at:
+                return obj.updated_at
+            return timezone.now().date()
