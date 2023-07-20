@@ -279,9 +279,7 @@
 3. Кастомизировал админку (настроил поля, поиск, фильтры и т.д.)
 4. Использовал модуль **[black](https://pypi.org/project/black/)** для приведение кода к единообразному формату *PEP 8*.
 
-    
-    #часть кода по генерации sitemap
-    class GreenWizardSitemap(Sitemap):
+
         changefreq = "weekly"
         priority = 0.9
     
