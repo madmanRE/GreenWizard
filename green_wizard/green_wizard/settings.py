@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -24,7 +25,15 @@ SECRET_KEY = "django-insecure-&%-&e%_oq1_3ia@#z1&qs3co29-jfl^y$-e=8w1dx%!(p(4401
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "0.0.0.0",
+    "127.0.0.1",
+    "localhost",
+]
+INTERNAL_IPS = [
+    "127.0.0.1",
+
+]
 
 SITE_ID = 1
 
@@ -90,13 +99,22 @@ WSGI_APPLICATION = "green_wizard.wsgi.application"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": "greenwizard",
-        "USER": "greenwizard",
-        "PASSWORD": "admin",
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR / 'db.sqlite3'),
     }
 }
+
+
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.postgresql",
+#         "NAME": "greenwizard",
+#         "USER": "greenwizard",
+#         "PASSWORD": "admin",
+#     }
+# }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
