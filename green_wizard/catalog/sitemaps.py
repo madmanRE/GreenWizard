@@ -1,7 +1,5 @@
 from itertools import chain
 from django.contrib.sitemaps import Sitemap
-from itertools import chain
-from django.contrib.sitemaps import Sitemap
 from .models import Game, Category
 from blog.models import Post
 from taggit.models import Tag
