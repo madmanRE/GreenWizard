@@ -1,5 +1,57 @@
 # GreenWizard
 
+------------------------
+
+## Getting Started
+
+### 1. Clone the Repository
+
+To get started with the GreenWizard project, the first step is to clone the repository from GitHub.
+
+```bash
+git clone https://github.com/madmanRE/GreenWizard.git
+cd GreenWizard
+```
+
+### 2. Install Dependencies
+
+Once you have the repository cloned, navigate to the project directory and install the required dependencies using the `requirements.txt` file.
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the Project
+
+After installing all the required dependencies, you can start the project by running the Django development server.
+
+```bash
+python manage.py runserver
+```
+
+The server will start, and you can access the application by navigating to `http://127.0.0.1:8000/` in your web browser.
+
+## Additional Information
+
+- Make sure to apply migrations if there are any changes in the database models.
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+- If you encounter any issues with the versions of the packages, consider creating a virtual environment before installing the dependencies.
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+pip install -r requirements.txt
+```
+
+- To stop the server, press `CTRL+C` in the terminal where the server is running.
+
+-------------------------
+
 *Pet project, написанный на фреймворке Django 4.2 языка Python.*
 
 ![Первый экран](img.png)
